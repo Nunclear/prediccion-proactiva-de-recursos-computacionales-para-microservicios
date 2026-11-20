@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "utc": "2026-10-29T19:56:53.832931+00:00",
+  "fits": 24,
+  "prediction_files": 480,
+  "router": {
+    "0": "C3",
+    "1": "C1"
+  }
+}

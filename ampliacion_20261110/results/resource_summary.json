@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "observation_window_unix": [
+    1794340951.6567583,
+    1794349719.808504
+  ],
+  "whole_system": {
+    "samples": 2873,
+    "cpu_percent_median": 15.7,
+    "ram_available_min_GiB": 10.872417449951172,
+    "GPU_total_VRAM_max_MiB": 3536.0,
+    "GPU_temperature_max_C": 75.0,
+    "CPU_temperature_max_C": 92.0,
+    "swap_IO_max_MiB_s": 12.478011128864548,
+    "sampled_pause_episodes": 1
+  },
+  "own_project_process": {
+    "RSS_observed_max_MiB": 1725.47265625,
+    "RSS_prebenchmark_observed_max_MiB": 1725.47265625,
+    "RSS_capture_window_unix": [
+      1794341975.4931931,
+      1794349721.7040827
+    ],
+    "valid_CPU_delta_capture_start_unix": 1794344566.710698,
+    "CPU_percent_of_one_core_observed_max": 190.62065864083831,
+    "limitation": "RSS sampled every3s, not continuous full-run maximum. Earlier process_cpu_percent zeros are invalid and excluded; earlier RSS remains valid. CPU metric is relative to one logical core; whole-system percentages have different normalization."
+  },
+  "recorded_retry_events": {
+    "experiment_failure": 7,
+    "training_oom_restart_from_epoch_checkpoint": 22,
+    "inference_oom_retry": 94
+  },
+  "energy": "not measured",
+  "scope": "Whole-system telemetry includes user applications and preprocessing. GPU totals are not model-specific VRAM. Benchmark Torch-allocator peaks are reported separately. Resource window ends after benchmark completion, excludes later manuscript production."
+}

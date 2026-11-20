@@ -1,0 +1,262 @@
+{
+  "figuras/es_historico.pdf": {
+    "label": "fig:historical",
+    "sha256": "9356126acc59fbfa58b6fcb814a81002538052c4223624817333d53ed1d07ea4",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "revision_20261029/results/comparaciones/resumen_perdidas.csv"
+    ]
+  },
+  "figuras/es_evolucion.pdf": {
+    "label": "fig:evolution",
+    "sha256": "3472d52d7c70a2d0e3dd1f9aae7ec98cefea309dcabe6d35bdb82df9a0e33602",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py",
+      "revision_20261029/src/compact.py",
+      "src/improved/models.py"
+    ]
+  },
+  "figuras/es_06_models.pdf": {
+    "label": "fig:models",
+    "sha256": "40fe5184facf8ef1846da8790e8f2b3cfe2c3210031b4edb3182a39bdac0d6d6",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/primary_summary.csv"
+    ]
+  },
+  "figuras/es_11_ablations.pdf": {
+    "label": "fig:ablation",
+    "sha256": "0683c71ebf80863ea73027be1012585d2bc3e711022ad2d2bfc7c694c230668e",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/metrics_all.csv.gz"
+    ]
+  },
+  "figuras/es_15_services.pdf": {
+    "label": "fig:services",
+    "sha256": "f9f1022bc5902374a67f0b5c315eae968422af6484f0b116397dda9491f2a90e",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/paired_by_service.csv",
+      "ampliacion_20261110/results/analysis/posthoc_service_sensitivity.json"
+    ]
+  },
+  "figuras/es_10_seed_variability.pdf": {
+    "label": "fig:seeds",
+    "sha256": "4d382c64406ffacf56506a5e875fef6fca2c2f5b9fffabc36f68fc51f99939b4",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/metrics_all.csv.gz"
+    ]
+  },
+  "figuras/es_07_loss.pdf": {
+    "label": "fig:loss",
+    "sha256": "f5bc6239064dd607c9836c9118f2980f54697c4a30025c7159d5e23f572db0b4",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/by_condition.csv"
+    ]
+  },
+  "figuras/es_08_horizon.pdf": {
+    "label": "fig:horizon",
+    "sha256": "1b9d4054a3064313a26f5950a00d39a5e8e5e90f84c8ef40024b45483b0f7df6",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/common_origin_metrics.csv.gz"
+    ]
+  },
+  "figuras/es_09_history.pdf": {
+    "label": "fig:history",
+    "sha256": "e01554bf9b0bf39e5e64b2a8d9a922560273a6834d1c903bb4d20939e6c7d792",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/common_origin_metrics.csv.gz"
+    ]
+  },
+  "figuras/es_12_external.pdf": {
+    "label": "fig:external",
+    "sha256": "4b7d93f8b2abfe6e2d079212256afb101061c0a78d635e276971e2a44b6dd341",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/by_condition.csv"
+    ]
+  },
+  "figuras/es_13_latency.pdf": {
+    "label": "fig:latency",
+    "sha256": "9495b7b7f910b40b54b5263b02ad067d037f179e5b247595a6aeddcbc207f4c5",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/experiments/benchmarks/latency.csv"
+    ]
+  },
+  "figuras/es_14_parameters.pdf": {
+    "label": "fig:params",
+    "sha256": "2505a0e48d9c987c4222afa5e1554787e741bfe23e26f5f263571e49a7d5e4b6",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/experiments/benchmarks/latency.csv",
+      "ampliacion_20261110/results/analysis/primary_summary.csv"
+    ]
+  },
+  "figuras/historico.pdf": {
+    "label": "fig:historical",
+    "sha256": "05904f056290a537fad76c1d12b53f81c7554969ff9aed670137eba1fe8a9fe6",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "revision_20261029/results/comparaciones/resumen_perdidas.csv"
+    ]
+  },
+  "figuras/evolucion.pdf": {
+    "label": "fig:evolution",
+    "sha256": "eb15df491724109c0988b51971059fb0d666762bcfa10383c6877bb8f1a44bf2",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py",
+      "revision_20261029/src/compact.py",
+      "src/improved/models.py"
+    ]
+  },
+  "figuras/02_dlinear.pdf": {
+    "label": "fig:dlinear",
+    "sha256": "7a228adbafbe6917099fabeca43819d47d160fa2ce2045f869f99d35fe9168b6",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py"
+    ]
+  },
+  "figuras/03_a3.pdf": {
+    "label": "fig:a3",
+    "sha256": "26bdb26cc5e447e67779d276e191d5c1489f54d82282c680256488d610cdd5d5",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py"
+    ]
+  },
+  "figuras/04_temporal_preparation.pdf": {
+    "label": "fig:temporal",
+    "sha256": "2c640fcf169d8cb7e5133a9fdb635007cb3bdc118ab5db3d039f882d1040a5b8",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py",
+      "ampliacion_20261110/data/processed/chronograph_holdout.npz",
+      "ampliacion_20261110/src/core.py"
+    ]
+  },
+  "figuras/05_missingness.pdf": {
+    "label": "fig:masks",
+    "sha256": "744d806d749e32eb281fb0266c7bc6d6493b31bed72ab3ec76b958a66e7c5602",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/mask_audits.csv"
+    ]
+  },
+  "figuras/06_models.pdf": {
+    "label": "fig:models",
+    "sha256": "e4d8945a1b305d311da0210dfd5472fcdaca701bc33da957979823467ff882cd",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/primary_summary.csv"
+    ]
+  },
+  "figuras/11_ablations.pdf": {
+    "label": "fig:ablation",
+    "sha256": "9ff43b4a283d68d74e6b7308a609c775c362312067ca71ccf2da961db15a814a",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/metrics_all.csv.gz"
+    ]
+  },
+  "figuras/15_services.pdf": {
+    "label": "fig:services",
+    "sha256": "b95dea148d5f41a64bd8c566de1c53019db514883e53543ee7284b1d110bb6c4",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/paired_by_service.csv",
+      "ampliacion_20261110/results/analysis/posthoc_service_sensitivity.json"
+    ]
+  },
+  "figuras/10_seed_variability.pdf": {
+    "label": "fig:seeds",
+    "sha256": "2abb955b5dc49bfe96e27edf3286fe014476878156e575b2e8ef1a4944b046bb",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/metrics_all.csv.gz"
+    ]
+  },
+  "figuras/07_loss.pdf": {
+    "label": "fig:loss",
+    "sha256": "c4230d32fa16180803a4215ad2d39dfe333e7f9f4540d89dc5a1f21673eaba8b",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/by_condition.csv"
+    ]
+  },
+  "figuras/08_horizon.pdf": {
+    "label": "fig:horizon",
+    "sha256": "e27569cfb0360e4566f072bfdbd4bb49f17d316b765cc87a645654d407ee328e",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/common_origin_metrics.csv.gz"
+    ]
+  },
+  "figuras/09_history.pdf": {
+    "label": "fig:history",
+    "sha256": "709bc7e7715589c0ba04d689d2e8f2a1d99f0cabe39da9dac5bc2ce4b7b11ab1",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/common_origin_metrics.csv.gz"
+    ]
+  },
+  "figuras/12_external.pdf": {
+    "label": "fig:external",
+    "sha256": "83df9141eda732542d74dda696674d27504a7574741e6c0b154801983e89a049",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/by_condition.csv"
+    ]
+  },
+  "figuras/13_latency.pdf": {
+    "label": "fig:latency",
+    "sha256": "7ea5e40af07c098e3986d81da5f4fea87e684148dffeafe6a1f003dc70e07776",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/experiments/benchmarks/latency.csv"
+    ]
+  },
+  "figuras/14_parameters.pdf": {
+    "label": "fig:params",
+    "sha256": "c648587b5957e3f7a8af002d10aecbc63452af78e28ff128c91274f1f480f7e4",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/experiments/benchmarks/latency.csv",
+      "ampliacion_20261110/results/analysis/primary_summary.csv"
+    ]
+  },
+  "figuras/es_02_dlinear.pdf": {
+    "label": "fig:dlinear",
+    "sha256": "e06acca7b2f630cae9a0ce2acda244ef9151f3687d42cc74e8b3dce1b88f0669",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py"
+    ]
+  },
+  "figuras/es_03_a3.pdf": {
+    "label": "fig:a3",
+    "sha256": "5c7d7adb22508f1aa1dcf7600ab0ea1948d41825ba9cc6ac873bb9542270cbae",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py"
+    ]
+  },
+  "figuras/es_04_temporal_preparation.pdf": {
+    "label": "fig:temporal",
+    "sha256": "ac879b276ecd6776d285181adf3e49b39f3dc6f8086300847709ad88fb5d56be",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py",
+      "ampliacion_20261110/data/processed/chronograph_holdout.npz",
+      "ampliacion_20261110/src/core.py"
+    ]
+  },
+  "figuras/es_05_missingness.pdf": {
+    "label": "fig:masks",
+    "sha256": "bbff680651e3f774f55ce749549e12643611fb4dfc67a05fa22da7f9d713b0d5",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/results/analysis/mask_audits.csv"
+    ]
+  },
+  "figuras/es_01_methodology.pdf": {
+    "label": "fig:flow",
+    "sha256": "583878bdc8d8064e86b39f67b23a928043d5fd41dffa85238b868d5cd43f355a",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py"
+    ]
+  },
+  "figuras/01_methodology.pdf": {
+    "label": "fig:flow",
+    "sha256": "a511de0658efaba252cc6a13ad2da6cbac2bca3bdb86501d8288b3feb3f0cde9",
+    "evidence_paths_relative_to_investigacion_dlinear": [
+      "ampliacion_20261110/configs/protocolo_congelado.yaml",
+      "ampliacion_20261110/src/models.py"
+    ]
+  }
+}

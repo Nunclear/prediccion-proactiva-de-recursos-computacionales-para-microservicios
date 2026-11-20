@@ -1,0 +1,9 @@
+dataset,L,h_steps,metric_rows,services,model_families,mask_realizations,valid_metric_cells
+alibaba_transfer,12,1,1331200,32,14,20,1331200
+new_services,12,1,1459200,32,15,20,1459200
+new_services,12,2,51200,32,8,5,51200
+new_services,12,4,51200,32,8,5,51200
+new_services,12,6,51200,32,8,5,51200
+new_services,12,12,51200,32,8,5,51200
+new_services,24,1,51200,32,8,5,51200
+new_services,48,1,51200,32,8,5,51200

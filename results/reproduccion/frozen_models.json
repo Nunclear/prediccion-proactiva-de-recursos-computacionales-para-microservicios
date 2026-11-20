@@ -1,0 +1,307 @@
+{
+  "utc": "2026-10-29T18:30:47.073354+00:00",
+  "models": [
+    {
+      "model": "DLinear",
+      "resource": "cpu_usage",
+      "seed": 101,
+      "file": "DLinear_r0_s101.pt",
+      "best_MASE": 0.8981604897178548,
+      "state_sha256": "9bdd377ceab5f81f619cfb0a5f051ccc6f3d38fcea043b51aa65601c6aa63150",
+      "parameters": 26,
+      "epochs": 20
+    },
+    {
+      "model": "DLinear",
+      "resource": "cpu_usage",
+      "seed": 202,
+      "file": "DLinear_r0_s202.pt",
+      "best_MASE": 0.8967543608188934,
+      "state_sha256": "6e3e9f58ad51dd558c63c2f18d71586c0b73d9d04bb76f3b8bffb75a68e8a01e",
+      "parameters": 26,
+      "epochs": 10
+    },
+    {
+      "model": "DLinear",
+      "resource": "cpu_usage",
+      "seed": 303,
+      "file": "DLinear_r0_s303.pt",
+      "best_MASE": 0.9062334544049403,
+      "state_sha256": "6f83de4c4c02af55813ff7db59a9ca1258b64c228558417a9fafbc8492b9219e",
+      "parameters": 26,
+      "epochs": 9
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "cpu_usage",
+      "seed": 101,
+      "file": "GRU_propia_r0_s101.pt",
+      "best_MASE": 0.8193478775580468,
+      "state_sha256": "b6f729fb2e51cca5407fc48c6ca43e904abee80548625ad5d80f8f69232985c1",
+      "parameters": 841,
+      "epochs": 8
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "cpu_usage",
+      "seed": 202,
+      "file": "GRU_propia_r0_s202.pt",
+      "best_MASE": 0.8431626905967206,
+      "state_sha256": "2604b1ef6c49fa6515f60dc3e1f0ec238c693e6423582319383e2ebddcd4be0c",
+      "parameters": 841,
+      "epochs": 11
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "cpu_usage",
+      "seed": 303,
+      "file": "GRU_propia_r0_s303.pt",
+      "best_MASE": 0.8239531111273176,
+      "state_sha256": "b332748fa8aceeb665923e0fe7be3c3cd8d0ffcb9e2262ecd4cdac3ae5f674f6",
+      "parameters": 841,
+      "epochs": 9
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "cpu_usage",
+      "seed": 101,
+      "file": "GRU_llamadas_r0_s101.pt",
+      "best_MASE": 0.8183647221070426,
+      "state_sha256": "087324770c1dd78f68691c650af982db178ff7526a07cb720916d8e502e8103e",
+      "parameters": 841,
+      "epochs": 13
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "cpu_usage",
+      "seed": 202,
+      "file": "GRU_llamadas_r0_s202.pt",
+      "best_MASE": 0.814075967431953,
+      "state_sha256": "7363587fda6c6035a2559b0f31f511f0111d04c79dd6cfd5c86eaf0bd4605dce",
+      "parameters": 841,
+      "epochs": 20
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "cpu_usage",
+      "seed": 303,
+      "file": "GRU_llamadas_r0_s303.pt",
+      "best_MASE": 0.8234199706343381,
+      "state_sha256": "b121b38b167b40b00b147e81872fadc00a56b2df4ab53d74ae6e3a05320bf3a1",
+      "parameters": 841,
+      "epochs": 9
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "cpu_usage",
+      "seed": 101,
+      "file": "BiTGraph_codigo_autor_r0_s101.pt",
+      "best_MASE": 0.7847444017230656,
+      "state_sha256": "44f55ffe56c65782f4bc799b6a3829bde5c5124f56e53675fe7cc8941a07b433",
+      "parameters": 15096,
+      "epochs": 20
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "cpu_usage",
+      "seed": 202,
+      "file": "BiTGraph_codigo_autor_r0_s202.pt",
+      "best_MASE": 0.7999928889236818,
+      "state_sha256": "e477b654459627ad5887407d3a43419efb4b54a4a1ff9854dc4aafc754cbfc34",
+      "parameters": 15096,
+      "epochs": 16
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "cpu_usage",
+      "seed": 303,
+      "file": "BiTGraph_codigo_autor_r0_s303.pt",
+      "best_MASE": 0.7955159293667198,
+      "state_sha256": "04fc8784fcc87d5e9c630c2f1f632035a8d788e545c8bfc03621876067676a89",
+      "parameters": 15096,
+      "epochs": 20
+    },
+    {
+      "model": "GinAR",
+      "resource": "cpu_usage",
+      "seed": 101,
+      "file": "GinAR_r0_s101.pt",
+      "best_MASE": 0.8768932157614987,
+      "state_sha256": "b33fee35b5cb7840fcd11284c981a1aa2412794417e2e790fe2ad0b926daf2dc",
+      "parameters": 9707,
+      "epochs": 20
+    },
+    {
+      "model": "GinAR",
+      "resource": "cpu_usage",
+      "seed": 202,
+      "file": "GinAR_r0_s202.pt",
+      "best_MASE": 0.8888333636491075,
+      "state_sha256": "76aed5984889582ad74e0e28b0a5ad9ba8b31c7b2547920e9f33a9fab176a260",
+      "parameters": 9707,
+      "epochs": 17
+    },
+    {
+      "model": "GinAR",
+      "resource": "cpu_usage",
+      "seed": 303,
+      "file": "GinAR_r0_s303.pt",
+      "best_MASE": 0.9637087063837968,
+      "state_sha256": "3752db77056c4a351da8fbdb04e4990218871ebdd4d2ddfe60091b66098517b4",
+      "parameters": 9707,
+      "epochs": 20
+    },
+    {
+      "model": "DLinear",
+      "resource": "container_memory_usage_bytes",
+      "seed": 101,
+      "file": "DLinear_r1_s101.pt",
+      "best_MASE": 1.01050922644654,
+      "state_sha256": "d0c554fb9f922d85097629108168edc8a11f218817fed0c8f0270b16ea695297",
+      "parameters": 26,
+      "epochs": 7
+    },
+    {
+      "model": "DLinear",
+      "resource": "container_memory_usage_bytes",
+      "seed": 202,
+      "file": "DLinear_r1_s202.pt",
+      "best_MASE": 0.9843614096874496,
+      "state_sha256": "695459593570640c5987d1b3319bba80204dbe733e7853c00bf99a0564a9501b",
+      "parameters": 26,
+      "epochs": 11
+    },
+    {
+      "model": "DLinear",
+      "resource": "container_memory_usage_bytes",
+      "seed": 303,
+      "file": "DLinear_r1_s303.pt",
+      "best_MASE": 1.0014993748305379,
+      "state_sha256": "afc3b3ca4bd01e696c0a4714ffef14d75c221de0ee750d9c4fc0a2dc9baf158c",
+      "parameters": 26,
+      "epochs": 7
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "container_memory_usage_bytes",
+      "seed": 101,
+      "file": "GRU_propia_r1_s101.pt",
+      "best_MASE": 0.9474334267091611,
+      "state_sha256": "b3f680ee9fc3b8e04d9bc10bf2b4cfc576e392629cbee91c430b790ec6db944e",
+      "parameters": 841,
+      "epochs": 7
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "container_memory_usage_bytes",
+      "seed": 202,
+      "file": "GRU_propia_r1_s202.pt",
+      "best_MASE": 0.9339952063371005,
+      "state_sha256": "69e330c855798a0e0dc8e659dc939f33fdc88a3d4f955419a5094c309c9af4e9",
+      "parameters": 841,
+      "epochs": 17
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "container_memory_usage_bytes",
+      "seed": 303,
+      "file": "GRU_propia_r1_s303.pt",
+      "best_MASE": 0.9305439880236266,
+      "state_sha256": "487e45d6c7d07e92b291eb6124aa3371797203d5d66b84986d7ff021d4cd9b78",
+      "parameters": 841,
+      "epochs": 18
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "container_memory_usage_bytes",
+      "seed": 101,
+      "file": "GRU_llamadas_r1_s101.pt",
+      "best_MASE": 0.9478131940650082,
+      "state_sha256": "8984cf98dfb5755c2f6a6b042ea67fb95712dec579e440aead9e7daa533d51d5",
+      "parameters": 841,
+      "epochs": 15
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "container_memory_usage_bytes",
+      "seed": 202,
+      "file": "GRU_llamadas_r1_s202.pt",
+      "best_MASE": 0.9566751656485291,
+      "state_sha256": "f194a4be31e1e883b26e27a79e02115ed3bfa1ed51f6823672a819bb4e814718",
+      "parameters": 841,
+      "epochs": 17
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "container_memory_usage_bytes",
+      "seed": 303,
+      "file": "GRU_llamadas_r1_s303.pt",
+      "best_MASE": 0.9433599200141121,
+      "state_sha256": "ea9ee3ef4dabdfa33fbcfd1e3abd05e14ab8a7b7e8db520bb3ff98bcbee043c1",
+      "parameters": 841,
+      "epochs": 18
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "container_memory_usage_bytes",
+      "seed": 101,
+      "file": "BiTGraph_codigo_autor_r1_s101.pt",
+      "best_MASE": 0.9854001045556662,
+      "state_sha256": "5921416ee5cc5b95b26e66b7a5a2fd9ada9075187d3751c8d0b85b7a6fa912b0",
+      "parameters": 15096,
+      "epochs": 11
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "container_memory_usage_bytes",
+      "seed": 202,
+      "file": "BiTGraph_codigo_autor_r1_s202.pt",
+      "best_MASE": 0.9770486517048045,
+      "state_sha256": "3c2519d575d5c8c3d5c92a8f980c3349748030ce834b0132c8684ea435bac0b1",
+      "parameters": 15096,
+      "epochs": 11
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "container_memory_usage_bytes",
+      "seed": 303,
+      "file": "BiTGraph_codigo_autor_r1_s303.pt",
+      "best_MASE": 1.0199949343564174,
+      "state_sha256": "e42ae73e60f2ffa7722fc75c55718b125353f1bb53cd6962206e06ecc451dcd4",
+      "parameters": 15096,
+      "epochs": 11
+    },
+    {
+      "model": "GinAR",
+      "resource": "container_memory_usage_bytes",
+      "seed": 101,
+      "file": "GinAR_r1_s101.pt",
+      "best_MASE": 1.4831166846839465,
+      "state_sha256": "de932be4d853fe486e33ede20b969fceb1a54098e01729523a9794c07b43678b",
+      "parameters": 9707,
+      "epochs": 20
+    },
+    {
+      "model": "GinAR",
+      "resource": "container_memory_usage_bytes",
+      "seed": 202,
+      "file": "GinAR_r1_s202.pt",
+      "best_MASE": 1.5756456768638127,
+      "state_sha256": "738c06c2c137a0a5e88b334af59a5f77b6cbe474258b0e5058dcd72aebb63513",
+      "parameters": 9707,
+      "epochs": 16
+    },
+    {
+      "model": "GinAR",
+      "resource": "container_memory_usage_bytes",
+      "seed": 303,
+      "file": "GinAR_r1_s303.pt",
+      "best_MASE": 1.6401977162197112,
+      "state_sha256": "02f87fbe4441eaf4616efd8521269d21c022fa7109efcb22495d4954366c4be0",
+      "parameters": 9707,
+      "epochs": 20
+    }
+  ],
+  "no_test_metrics_used": true,
+  "config_sha256": "222564d65af74a444aa2630c8bd2265dcc524673bb4fbfbf9bcee3914e758c2f"
+}

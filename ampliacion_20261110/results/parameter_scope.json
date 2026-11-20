@@ -1,0 +1,13 @@
+{
+  "model": "PatchTST",
+  "total_parameter_tensors_elements": 2500,
+  "trainable_parameter_elements": 2499,
+  "fixed_parameter_names": [
+    "model.backbone.encoder.layers.0.self_attn.sdp_attn.scale"
+  ],
+  "loaded_vendor_modules": {
+    "layers.PatchTST_layers": "/workspace/ampliacion_20261110/src/vendor/patchtst/layers/PatchTST_layers.py",
+    "layers.RevIN": "/workspace/ampliacion_20261110/src/vendor/patchtst/layers/RevIN.py",
+    "layers.PatchTST_backbone": "/workspace/ampliacion_20261110/src/vendor/patchtst/layers/PatchTST_backbone.py"
+  }
+}

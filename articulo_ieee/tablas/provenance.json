@@ -1,0 +1,81 @@
+{
+  "source_root": "investigacion_dlinear",
+  "numeric_trace": "trazabilidad_resultados.csv",
+  "label_to_source": {
+    "tab:historical-main": [
+      "revision_20261029/results/comparaciones/resumen_perdidas.csv"
+    ],
+    "tab:historical": [
+      "revision_20261029/results/comparaciones/resumen_global.csv"
+    ],
+    "tab:primary": [
+      "ampliacion_20261110/results/analysis/primary_summary.csv"
+    ],
+    "tab:stress": [
+      "ampliacion_20261110/results/analysis/by_condition.csv"
+    ],
+    "tab:external": [
+      "ampliacion_20261110/results/analysis/by_condition.csv"
+    ],
+    "tab:contrasts": [
+      "ampliacion_20261110/results/analysis/primary_contrasts.json"
+    ],
+    "tab:block": [
+      "ampliacion_20261110/results/analysis/primary_contrasts.json"
+    ],
+    "tab:variation": [
+      "ampliacion_20261110/results/analysis/variability.csv"
+    ],
+    "tab:horizon": [
+      "ampliacion_20261110/results/analysis/common_origin_metrics.csv.gz",
+      "ampliacion_20261110/results/analysis/common_origins.json"
+    ],
+    "tab:history": [
+      "ampliacion_20261110/results/analysis/common_origin_metrics.csv.gz"
+    ],
+    "tab:efficiency": [
+      "ampliacion_20261110/experiments/benchmarks/latency.csv",
+      "ampliacion_20261110/results/analysis/efficiency_display.csv"
+    ],
+    "tab:memory-bench": [
+      "ampliacion_20261110/experiments/benchmarks/latency.csv"
+    ],
+    "tab:historical-bench": [
+      "revision_20261029/results/comparaciones/costes_nueva_medicion.csv"
+    ]
+  },
+  "file_sha256": {
+    "tablas/additional_missingness.tex": "7b5f1eeafa2996a061f9b62989465e88c000b5e4fd788e811d1fc215fc8aad7c",
+    "tablas/block_sensitivity.tex": "00268390515e94be002457379fd1f89bce66922b86940191874da1b13f63ec65",
+    "tablas/contrasts.tex": "9354e7695f4bb6f15526afdffc5abed8f9422f477c9c7535add7bf3612a01e79",
+    "tablas/efficiency.tex": "2c3be5816e2dcf528482a4e948a53cf157fa61e6b65b8d4e1e4e345ad4d1fb0b",
+    "tablas/es_additional_missingness.tex": "3ac37f81e777d3a85a4e5d5d0214d2c587a31b77639f579936ecaf114242da35",
+    "tablas/es_block_sensitivity.tex": "2ae8fa64816eb2d0e3df83b9d404877bae661e56e8d69f344ac64c81c4e9451b",
+    "tablas/es_contrasts.tex": "861bbbeab971fe97591780a8dd57c5e126f1a0317a003d3effc93a7e27be7886",
+    "tablas/es_efficiency.tex": "43ce1eb1844988d28ff9e7adda2745b72daede20b33d30a5ec929caf16ef12b8",
+    "tablas/es_external.tex": "c89a68193dc8b64bb3bed4c66e90b5e15db24990e4ebf8b12f90a8965e71017e",
+    "tablas/es_historical.tex": "44bb80f6506f4da3e0c29ab3971e0c4e875f826c93e56373ba30f05c8a655826",
+    "tablas/es_historical_bench.tex": "28ca016104d3b2fd0d20ed24b88f236f85dad697211600bcb9969d763726db96",
+    "tablas/es_historico_positivo.tex": "1a5dca67176ae818ce2d7316e896b087877b3c0dd5e44f12cb9a7b2f8287f9ab",
+    "tablas/es_histories_cpu.tex": "6c75d43c35df4957a3bb9d45730c35a466750128085a708f0160d14d1b5f5ee8",
+    "tablas/es_histories_memory.tex": "eec822c63d08e93d67f63d69e044eec02a3667dd08a018a3f16f729e1339baa1",
+    "tablas/es_horizons_cpu.tex": "57206e4811ea67360351d2d5e4fec5187c54561dd306d11db8d588286d6080c0",
+    "tablas/es_horizons_memory.tex": "c6a7899bbeaae55ad5e98c1463b558d6b88542da276d2d5997a9cc9469ac37d3",
+    "tablas/es_matrix.tex": "e23ae0052b79488a8b95b8a7dc9f0553d8ce0a3c292359264f9641d979d453bf",
+    "tablas/es_memory_bench.tex": "f078cdc26fe65dfaf1e5e236ed3e493f1833597257100720bd2743ce1b9c3c4b",
+    "tablas/es_primary.tex": "abc0694c959b92bb43b18c4279d99ae27879a783038d784e0e216704a5523626",
+    "tablas/es_variability.tex": "cb4a17c8605074363c0fcff3c71d51dd9847aa6d8dcef872ae0a180cd5ff87df",
+    "tablas/external.tex": "d4d73b37039c4f5462d1df83bfc6e5463ab3b6a3a8145714774b340d7bb91540",
+    "tablas/historical.tex": "9bcd6ad1b1bce762b58d114329050b6ef304c98db828e09b7e6c8c1ba7a24448",
+    "tablas/historical_bench.tex": "fabb8dd93a5a7d7b448d51da72eb7d8967835ffd862e2ef42ce0603f729678bd",
+    "tablas/historico_positivo.tex": "47804b5e61c35ebb5d8ffc4fa507d36909657d7adc645dc632b7e3f6b6443491",
+    "tablas/histories_cpu.tex": "e9e8254a9c60785e4906104e5f59940ba430dffe58e54a132bb48e57ae2dd83c",
+    "tablas/histories_memory.tex": "1dbb1ef04a5c9e80ef2fcd1355634e8a09acc15bfee2bbc74b811ee8d5d915d3",
+    "tablas/horizons_cpu.tex": "5bc7451a99bf2d3f06fe7aefc32377f5a15b6e00a374b73bc041127235650658",
+    "tablas/horizons_memory.tex": "cba3c098e3c64e5ade59340e5390e06ba42481b99bfaa3fc705d9e83e8ecc501",
+    "tablas/matrix.tex": "175ee0579ceb455cd040d99520c4aeede711e5289e8152c8e9e1e62e34f40a88",
+    "tablas/memory_bench.tex": "7956084e9e219bd81c80f855662b7e22f9974c0d7b480e16a9d0dd5b527a9f4c",
+    "tablas/primary.tex": "3c4b0bc8d5cd0818aae380504d637e13be189e4b4773592520224944215de442",
+    "tablas/variability.tex": "d97d8d41932c814296c2e5703c4020b431a3c0d2e481ff6602c1056dc7cfa54f"
+  }
+}

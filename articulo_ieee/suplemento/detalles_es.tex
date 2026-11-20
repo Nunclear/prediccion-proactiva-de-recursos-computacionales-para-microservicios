@@ -1,0 +1,79 @@
+\appendices
+\section{Comparaciones detalladas suplementarias}
+Las tablas conservan escenarios secundarios sin sustituir el criterio principal. La Tabla~\ref{tab:stress} contiene todas las familias bajo mecanismos añadidos; la Tabla~\ref{tab:variation} distingue variación de medias por semilla y por máscara. La desviación entre semillas no se define para una referencia determinista con un solo ajuste; no se sustituye silenciosamente por cero. Son resúmenes condicionados, no componentes independientes de varianza poblacional.
+\begin{table*}[!t]
+\caption{MASE descriptivo bajo pérdidas correlacionadas, prolongadas y MAR dependiente del retardo. La etiqueta nominal no equivale siempre a tasa realizada.}\label{tab:stress}
+\centering\footnotesize
+\FitTable{\input{tablas/es_additional_missingness.tex}}
+\end{table*}
+\begin{table*}[!t]
+\caption{Desviaciones de medias por semilla y máscara, principal con pérdidas. No son incertidumbres de infraestructuras independientes.}\label{tab:variation}
+\centering\footnotesize
+\FitTable{\input{tablas/es_variability.tex}}
+\end{table*}
+\begin{table}[!t]
+\caption{Intervalos95\% cruzados por semilla, máscara y bloques circulares para referencia menos A3. Los bloques24/48/96 equivalen a12/24/48 horas nominales. No se afirma cobertura predictiva o poblacional.}\label{tab:block}
+\centering\footnotesize
+\FitTable{\input{tablas/es_block_sensitivity.tex}}
+\end{table}
+\begin{table*}[!t]
+\caption{MASE con objetivos comunes: CPU a la izquierda y memoria a la derecha, horizontes en minutos. Tres semillas, cinco máscaras y seis condiciones con pérdidas. H30 es un subconjunto del principal.}\label{tab:horizon}
+\centering\footnotesize
+
+\setlength{\tabcolsep}{4pt}
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/es_horizons_cpu.tex}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/es_horizons_memory.tex}}
+\end{minipage}
+\end{table*}
+\begin{table*}[!t]
+\caption{Historias semihorarias con objetivos comunes y horizonte treinta minutos (CPU a la izquierda y memoria a la derecha). Diseño estrella descriptivo.}\label{tab:history}
+\centering\footnotesize
+
+\setlength{\tabcolsep}{4pt}
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/es_histories_cpu.tex}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/es_histories_memory.tex}}
+\end{minipage}
+\end{table*}
+\begin{table*}[!t]
+\caption{Transferencia Alibaba, seis condiciones con pérdidas. MAE/RMSE absolutos utilizan normalización publicada de ambos recursos, no núcleos o bytes.}\label{tab:external}
+\centering\footnotesize
+\FitTable{\input{tablas/es_external.tex}}
+\end{table*}
+La Tabla~\ref{tab:historical} conserva los promedios históricos con telemetría completa incluida. La Tabla~\ref{tab:matrix} documenta el alcance de la ampliación y la repetición de filas de métricas.
+\begin{table}[!t]
+\caption{Resumen histórico de las siete condiciones originales, incluida telemetría completa. Su alcance difiere de la tabla histórica principal de seis condiciones con pérdidas. V2 es alias y el extremo GinAR se conserva.}\label{tab:historical}
+\centering\footnotesize
+\FitTable{\input{tablas/es_historical.tex}}
+\end{table}
+\begin{table}[!t]
+\caption{Matriz de métricas ejecutadas. Las filas repiten resúmenes por modelo, semilla, máscara, condición y servicio; no son datasets independientes.}\label{tab:matrix}
+\centering\footnotesize
+\FitTable{\input{tablas/es_matrix.tex}}
+\end{table}
+\section{Reconstrucción y procedencia}
+El manifiesto de predicciones registra cada archivo nuevo y sus hashes de archivo y arreglos; el de checkpoints registra pesos y huellas del predictor. El archivo de métricas conserva precisión completa y semántica del objetivo. El redondeo de tablas no modifica las fuentes. La trazabilidad del artículo relaciona cifras, filtros y representaciones con fuentes verificadas. Los hashes de código del protocolo se comprobaron nuevamente durante análisis.
+
+El analizador reconstruye en float64 las ecuaciones, cantidades de objetivos e índices desde predicciones guardadas. Regenerar máscaras con el generador congelado es una comprobación de consistencia, no un segundo algoritmo independiente. Las pruebas cubren límites/huecos, invariancia de prefijos futuros MAR, perturbación oculta con máscara fija, procedencia, modelos finitos CPU/CUDA e inicialización afín. Los ensayos del mismo entorno verifican recuperación y reproducción CUDA. No demuestran ausencia universal de fugas en datos del propietario.
+
+La imagen Docker derivada reutiliza una base local. Sus identificadores y dependencias están registrados, sin certificar reconstrucción limpia en otra máquina. Se corrigió un defecto de inicialización del muestreo CPU del monitor: RSS previo sigue válido y ceros CPU previos se excluyen. Se preserva la enmienda. Épocas, RSS, asignación PyTorch y telemetría global mantienen definiciones separadas. El README describe reconstrucción limitada sin volver a seleccionar ni entrenar.
+
+\subsection{Mediciones separadas de memoria y tiempos históricos}
+La Tabla~\ref{tab:historical-bench} conserva mediciones seleccionadas CUDA B128 sobre fuente28. La Tabla~\ref{tab:memory-bench} muestra inferencia CUDA B1 en destino32 para el objetivo CPU. RSS describe memoria del proceso y el pico CUDA corresponde al asignador PyTorch. El contexto y las memorias de partida difieren entre protocolos. No se convierten directamente en tamaño de parámetros.
+\begin{table}[!t]
+\caption{Histórico B128 CUDA directo, semilla101. RSS es pico del proceso reportado y CUDA pico de memoria asignada. Los segundos incluyen ajuste y validación.}\label{tab:historical-bench}
+\centering\footnotesize
+\FitTable{\input{tablas/es_historical_bench.tex}}
+\end{table}
+\begin{table}[!t]
+\caption{CUDA B1 ampliado con32 servicios. RSS observado y pico del asignador CUDA en MiB. GRU-D utiliza reproducción verificada. Los totales del dispositivo se informan por separado.}\label{tab:memory-bench}
+\centering\footnotesize
+\FitTable{\input{tablas/es_memory_bench.tex}}
+\end{table}

@@ -1,0 +1,25 @@
+\subsection{Forecasting targets, decomposition and incomplete histories}
+A multivariate infrastructure dataset does not require every predictor to use all its variables jointly. Here CPU and memory are separate supervised targets, and most linear predictors share coefficients across services while consuming one service's resource history. The graph recurrent comparator introduces neighboring services through fixed incoming and outgoing aggregates. Thus the source data are multivariate, but an individual linear forecast is a shared univariate mapping after service-specific calibration. This distinction prevents a low-cost per-service head from being described as a learned joint model of the complete infrastructure.
+
+A temporal decomposition separates a smoothed level from a residual \cite{hyndmanfpp3}. Neither the residual nor a high autocorrelation at a daily lag establishes seasonality. The MA25 reference uses repeated endpoints on a twelve-step history, which makes padding an important part of its implemented transformation. Exponential smoothing instead updates a state with geometrically declining influence, and the availability-aware version skips measurement updates when the input is imputed. Persistence, moving average and observation-updated exponential smoothing are also evaluated as direct statistical predictors. A decomposition inside a trained head and an exponential-smoothing predictor are different models even when they use similar recurrences.
+
+NLinear subtracts the last prepared input value before an affine projection and adds that value back to the output. This normalization makes a recent level explicit, but the recent value may itself be carried forward under missingness. Its competitiveness therefore does not demonstrate recovery of hidden measurements. Ridge provides a regularized affine reference fitted analytically \cite{hoerlkennard}. The single-head A0 provides a gradient-trained affine reference initialized from the two DLinear heads. Differences among their predictions may reflect initialization, loss, regularization and selection rather than different expressive power on complete filled histories.
+
+Missing-data treatment has two roles. Causal filling supplies a numerical input; provenance channels tell the predictor whether it is measured or substituted. Age summarizes the length of a missing run and can become large even with a short explicit input window. The synthetic lag-MAR mechanism additionally links observation probability to a previously available CPU state. This creates an implemented observation process whose rate differs from its nominal label. It does not establish that real collector failures are missing at random, nor does it justify conditioning a generator on hidden contemporaneous CPU.
+
+GRU cells encode a sequence through gated state updates \cite{gru}. GRU-D extends recurrent modeling with measurement indicators and decay \cite{grud}; its shared-service adaptation here is intentionally identified as an adaptation. Graph methods can exploit service relationships, but adjacency is not synonymous with a known causal influence. BiTGraph and GinAR are retained in historical comparisons \cite{bitgraph,ginar}. PatchTST represents input subsequences as patches and applies attention \cite{patchtst}; the small executed recipe provides a feasible comparator, not a claim to exhaust Transformer forecasting. Table~\ref{tab:related} distinguishes implemented families from bibliographic context.
+
+\begin{table*}[!t]
+\caption{State-of-the-art context and implemented scope. Published results from different tasks are not combined with the present measurements.}\label{tab:related}
+\centering\footnotesize
+\begin{tabularx}{\linewidth}{p{.23\linewidth}XX}
+\toprule Work/family & Relevant mechanism & Execution and boundary \\\midrule
+DLinear/NLinear \cite{dlinear} & Affine forecasting and explicit level handling & Executed; short histories and source-only selection \\
+GRU/GRU-D \cite{gru,grud} & Gating, availability and decay & Executed adaptations; no clinical-task reproduction \\
+BiTGraph/GinAR \cite{bitgraph,ginar} & Graph and incomplete-variable forecasting & Historical only; local budget and missingness task \\
+PatchTST \cite{patchtst} & Channel-independent temporal patches & Small executed configuration, not published recipe \\
+TimesNet, iTransformer, TiDE, TimeMixer \cite{timesnet,itransformer,tide,timemixer} & Alternative temporal representations & Reviewed only; no experimental ranking here \\
+Cloud prediction \cite{powerprediction,temposcale,aero,stamp} & Prediction integrated with resource management & Context; no controller outcome measured here \\
+\bottomrule
+\end{tabularx}
+\end{table*}

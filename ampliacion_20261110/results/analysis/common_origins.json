@@ -1,0 +1,13 @@
+{
+  "status": "exploratory secondary common-support summary",
+  "n_origins": 1553,
+  "first_target_row": 6452,
+  "last_target_row": 8004,
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "mask_realizations": 5,
+  "unchanged_primary": true
+}

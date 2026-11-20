@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "manifest_records": 1400,
+  "unique_dataset_replication_case_keys": 400,
+  "method": "Regenerate with frozen mask code and seeds, verify saved digests/rates, exact counts except declared lag-MAR; repeated settings/resources are paired, not independent draws."
+}

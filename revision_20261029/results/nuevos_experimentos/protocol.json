@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-10-29T19:53:15.368083+00:00",
+  "families": {
+    "C0": {
+      "availability": false,
+      "last_age": false
+    },
+    "C1": {
+      "availability": true,
+      "last_age": false
+    },
+    "C2": {
+      "availability": false,
+      "last_age": true
+    },
+    "C3": {
+      "availability": true,
+      "last_age": true
+    }
+  },
+  "backends": [
+    "ma25",
+    "ema03",
+    "ema07"
+  ],
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "test_mask_seeds": [
+    90001,
+    190004,
+    290007,
+    390010,
+    490013,
+    590016,
+    690019,
+    790022,
+    890025,
+    990028,
+    1090031,
+    1190034,
+    1290037,
+    1390040,
+    1490043,
+    1590046,
+    1690049,
+    1790052,
+    1890055,
+    1990058
+  ],
+  "split": [
+    0,
+    5603,
+    6404,
+    8005
+  ],
+  "history": 12,
+  "horizon_seconds": 1800,
+  "selection": "same budget per family: 3 backends x 2 LR, epoch3 validation512/32; family selection by mean full best validation over seeds101/202/303, ties parameter count then family name",
+  "inference_selection": "one family per resource, frozen before test; no dynamic routing or test targets",
+  "exploratory": true,
+  "source_sha256": {
+    "src/compact.py": "c3782176ac14babadf037d1a25ab983dcc623100e63060195351cf16724944a0",
+    "scripts/run_v2.py": "499961bdde05d942ac09d1b86d16ddf6565875d5cff603df5a7a87b6c3ed1000",
+    "tests/test_compact.py": "39e4feba0ffecca227f590eb704307d0d35a5e85a8ca230b12fcaa326d576b53",
+    "tests/smoke_v2.py": "d5a4b189252db699fe9826c17e80d53dc4821f6edbb9c709fa933e70743d3349"
+  }
+}

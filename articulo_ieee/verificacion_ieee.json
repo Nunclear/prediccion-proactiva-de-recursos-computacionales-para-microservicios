@@ -1,0 +1,35 @@
+{
+  "status": "verified",
+  "format": "IEEEtran 1.8b, journal, 10 pt, two columns, US letter",
+  "versions": {
+    "en": {
+      "main_tex": "main.tex",
+      "status": "source_only",
+      "references": 32,
+      "figures": 17,
+      "tables": 17
+    },
+    "es": {
+      "main_tex": "main_es.tex",
+      "pdf": "articulo_ieee_es.pdf",
+      "pages": 23,
+      "references": 32,
+      "figures": 17,
+      "tables": 17,
+      "sha256": "b06bbec6f3ef7eb78c7fc5aa064c52494d85c9ef334b75cb1196a4c5de251eca"
+    }
+  },
+  "asset_files_identical_to_unified_source": {
+    "figure_pdfs": 34,
+    "table_tex": 32,
+    "trace_rows": 4959
+  },
+  "visual_review": "Renderizado de todas las páginas y revisión de las páginas con cambios editoriales.",
+  "build": {
+    "status": "passed",
+    "engine": "pdfLaTeX",
+    "bibliography": "BibTeX / IEEEtran",
+    "undefined_references": false,
+    "bibliography_entries": 32
+  }
+}

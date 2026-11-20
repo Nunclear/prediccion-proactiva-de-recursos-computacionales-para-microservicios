@@ -1,0 +1,6 @@
+.git
+.entrega_build
+**/__pycache__
+**/*.npz
+**/*.pt
+.env*

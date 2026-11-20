@@ -1,0 +1,137 @@
+{
+  "choices": {
+    "DLinear_r0": 0.003,
+    "GRU_propia_r0": 0.001,
+    "GRU_llamadas_r0": 0.001,
+    "BiTGraph_codigo_autor_r0": 0.001,
+    "GinAR_r0": 0.003,
+    "DLinear_r1": 0.003,
+    "GRU_propia_r1": 0.003,
+    "GRU_llamadas_r1": 0.003,
+    "BiTGraph_codigo_autor_r1": 0.003,
+    "GinAR_r1": 0.003
+  },
+  "records": [
+    {
+      "model": "DLinear",
+      "resource": "cpu_usage",
+      "lr": 0.001,
+      "validation_MASE": 1.0050628401606039
+    },
+    {
+      "model": "DLinear",
+      "resource": "cpu_usage",
+      "lr": 0.003,
+      "validation_MASE": 0.9276456439843481
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "cpu_usage",
+      "lr": 0.001,
+      "validation_MASE": 0.8240883475860695
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "cpu_usage",
+      "lr": 0.003,
+      "validation_MASE": 0.8509655942446116
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "cpu_usage",
+      "lr": 0.001,
+      "validation_MASE": 0.9111673373744161
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "cpu_usage",
+      "lr": 0.003,
+      "validation_MASE": 0.8910086397945164
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "cpu_usage",
+      "lr": 0.001,
+      "validation_MASE": 0.879550827778883
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "cpu_usage",
+      "lr": 0.003,
+      "validation_MASE": 0.8876272339520589
+    },
+    {
+      "model": "GinAR",
+      "resource": "cpu_usage",
+      "lr": 0.001,
+      "validation_MASE": 1.8765538845154222
+    },
+    {
+      "model": "GinAR",
+      "resource": "cpu_usage",
+      "lr": 0.003,
+      "validation_MASE": 1.4096425359239637
+    },
+    {
+      "model": "DLinear",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.001,
+      "validation_MASE": 1.0893234961749594
+    },
+    {
+      "model": "DLinear",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.003,
+      "validation_MASE": 1.0434560358366924
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.001,
+      "validation_MASE": 1.1911158143270324
+    },
+    {
+      "model": "GRU_propia",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.003,
+      "validation_MASE": 1.0082030079788968
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.001,
+      "validation_MASE": 1.661983730558842
+    },
+    {
+      "model": "GRU_llamadas",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.003,
+      "validation_MASE": 1.098951322174378
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.001,
+      "validation_MASE": 1.3545188834134099
+    },
+    {
+      "model": "BiTGraph_codigo_autor",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.003,
+      "validation_MASE": 1.1825181354250331
+    },
+    {
+      "model": "GinAR",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.001,
+      "validation_MASE": 5.273338916329812
+    },
+    {
+      "model": "GinAR",
+      "resource": "container_memory_usage_bytes",
+      "lr": 0.003,
+      "validation_MASE": 5.242284605143489
+    }
+  ],
+  "selection": "validation_only; epoch_3; shared_LR_for_GRU_pair"
+}

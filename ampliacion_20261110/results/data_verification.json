@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "raw_objects_verified_at_download": 48,
+  "raw_content_md5_checks": 48,
+  "raw_total_bytes": 17890753336,
+  "raw_total_csv_rows": 675424445,
+  "raw_hash_policy": "SHA256 computed during original bounded download; current audit checks sizes and completed manifests without rereading18GB",
+  "aggregation_reconstructed_from_pod_timestamp_sums": true,
+  "aggregation_max_abs_difference": 4.440892098500626e-16,
+  "native_cadence_ms": 60000,
+  "distinct_recorded_minutes": 1440,
+  "half_hour_shape": [
+    48,
+    32,
+    2
+  ],
+  "natural_missing_entries": [
+    {
+      "bin_index": 4,
+      "available_at_seconds": 9000,
+      "service": "MS_73346",
+      "resource": "cpu_usage",
+      "observed_minute_timestamps": 28,
+      "partition": "calibration"
+    },
+    {
+      "bin_index": 4,
+      "available_at_seconds": 9000,
+      "service": "MS_73346",
+      "resource": "container_memory_usage_bytes",
+      "observed_minute_timestamps": 28,
+      "partition": "calibration"
+    },
+    {
+      "bin_index": 9,
+      "available_at_seconds": 18000,
+      "service": "MS_26090",
+      "resource": "cpu_usage",
+      "observed_minute_timestamps": 29,
+      "partition": "calibration"
+    },
+    {
+      "bin_index": 9,
+      "available_at_seconds": 18000,
+      "service": "MS_26090",
+      "resource": "container_memory_usage_bytes",
+      "observed_minute_timestamps": 29,
+      "partition": "calibration"
+    }
+  ],
+  "chronograph": {
+    "source": {
+      "shape": [
+        8005,
+        28,
+        2
+      ],
+      "cuts": [
+        0,
+        5603,
+        6404,
+        8005
+      ],
+      "sha256": "80cba59fdc0897f9dc47c4e411837e261ed92815706e7614e1fd3f8dad76913d",
+      "nominal_step_seconds": 1800,
+      "gaps_after_rows": [
+        5907
+      ],
+      "gap_durations_seconds": [
+        108000.0
+      ],
+      "time_sha256": "4a5e9869c282665f3c287faac2222ed2dd2eee7fe6aa7ef1c5718f489ebd9032"
+    },
+    "holdout": {
+      "shape": [
+        8005,
+        32,
+        2
+      ],
+      "cuts": [
+        0,
+        5603,
+        6404,
+        8005
+      ],
+      "sha256": "f68e1c180264db8186d50cccd216a09de8c860e80ddb76457ea788663c8d03c5",
+      "nominal_step_seconds": 1800,
+      "gaps_after_rows": [
+        5907
+      ],
+      "gap_durations_seconds": [
+        108000.0
+      ],
+      "time_sha256": "4a5e9869c282665f3c287faac2222ed2dd2eee7fe6aa7ef1c5718f489ebd9032"
+    }
+  }
+}

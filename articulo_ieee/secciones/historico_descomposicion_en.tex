@@ -1,0 +1,17 @@
+\subsection{Historical decomposition, compact families and selection}
+The original E0 is fixed MA25 DLinear with 26 trainable parameters per resource. E1 selects a moving-average width from 3, 7, 13 and 25. E2 replaces its level with an observation-updated exponential component. For prepared value $v_i$, indicator $m_i$ and initial level $\ell_1=v_1$, the recurrence is
+\begin{equation}
+\ell_i=\ell_{i-1}+\alpha m_i(v_i-\ell_{i-1}),\qquad r_i=v_i-\ell_i.
+\end{equation}
+The historical search considered fixed $\alpha=0.1,0.3,0.7$ and a sigmoid-constrained learned scalar; the selected final configurations use fixed factors. E3 adds a bias-free projection of the 36 availability/carry/fallback indicators, E4 adds a bias-free projection of twelve ages, and E5 combines the exponential component with both heads. Thus E3, E4 and fixed-factor E5 contain 62, 38 and 74 parameters. The added heads start at zero. Because the three status indicators sum to one and positive age also reveals absence, the ablations do not identify orthogonal causal information effects.
+
+The C families retain the two-head decomposition. They add at most a missing-fraction coefficient and a final-age coefficient:
+\begin{equation}
+\widehat x_C=\widehat x_{\rm base}+\gamma_p L^{-1}\sum_i(1-m_i)+\gamma_a a_L.
+\end{equation}
+C0 includes neither coefficient, C1 only missing fraction, C2 only age, and C3 both; parameter counts are 26, 27, 27 and 28. Each selects among MA25, EMA0.3 and EMA0.7. These families differ from A0--A3: the A families collapse the fixed DLinear value heads and contain 13--15 parameters at L12, whereas the C families preserve 26 base parameters. Fig.~\ref{fig:evolution} summarizes this progression. A3 is neither the validation alias V2 nor a simple relabeling of C3.
+
+Historical training uses Adam, learning-rate candidates 0.001/0.003, normalized MSE, gradient clipping at one, batch16, up to twenty epochs and patience five. A rotating condition assignment is modulo seven. The short historical search uses three epochs, 512 training origins and 32 validation origins, with selection details that differ across the original variants. C0--C3 use a common six-candidate decomposition/rate grid per resource: 48 short fits followed by 24 final fits across both resources and three seeds. V2 selects one family per resource using the mean best validation MASE of the three seeded fits, breaking ties by parameter count and family identifier. It reuses that family's weights and predictions. No service-specific or test-time oracle selects V2 outputs.
+
+For L12/H1, the historical valid-origin counts are 5591 training, 777 validation and 1589 test. Origin eligibility respects both the row partitions and the actual time gap. Twenty paired realizations cover seven original conditions. Historical uncertainty uses 10000 resamples of whole mask realizations, seed91001, and a crossed three-seed/twenty-mask sensitivity. The historical percentage reduction is calculated after averaging within each mask realization. The expanded percentage estimand instead averages paired service-level cell percentages. These definitions are retained rather than equated merely because both are called reductions.
+

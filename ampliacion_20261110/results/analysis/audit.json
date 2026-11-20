@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "metric_csv_files": 140,
+  "npz_files": 9680,
+  "metric_rows": 3097600,
+  "max_absolute_metric_reconstruction_difference": 3.725290298461914e-09,
+  "protocol_sha256": "c31a47d143f0aaacfc739c7cf9e836c9afc9382420d25fba22aa3f7c530ab771",
+  "scope": "All saved new-study predictions; metric equations independently reconstructed in float64; historical artifacts preserved separately."
+}

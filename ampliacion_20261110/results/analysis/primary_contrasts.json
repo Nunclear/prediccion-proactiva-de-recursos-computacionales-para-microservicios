@@ -1,0 +1,233 @@
+{
+  "contrasts": [
+    {
+      "resource": "cpu_usage",
+      "reference": "DLinear",
+      "proposed": "A3",
+      "mean_MASE_reference": 1.1493373592289935,
+      "mean_MASE_A3": 1.1602349527399531,
+      "mean_paired_MASE_difference": -0.010897593510959884,
+      "mean_paired_MAE_difference": -1.7131726535761938e-05,
+      "mean_paired_RMSE_difference": -2.3287239013075115e-05,
+      "mean_paired_reduction_percent": -0.7807867769430146,
+      "paired_reduction_valid_cells": 38400,
+      "zero_reference_cells": 0,
+      "ratio_of_mean_reduction_percent": -0.9481631675377091,
+      "seed_differences": [
+        0.016263530202385027,
+        -0.045239681821415606,
+        -0.010164762573259337,
+        0.003117800034824874,
+        0.017621534478560758,
+        -0.0477282830407699,
+        -0.0012918347757341557,
+        -0.022293358100061344,
+        -0.04596563543251505,
+        0.026704755918385857
+      ],
+      "n_nonzero_seeds": 10,
+      "positive_seeds": 4,
+      "paired_seed_standardized_effect": -0.38663961644566286,
+      "p_sign": 0.75390625,
+      "leave_tuning_seed_out": {
+        "excluded_seed": 101,
+        "status": "exploratory sensitivity declared before target-metric inspection",
+        "n_seeds": 9,
+        "n_nonzero_seeds": 9,
+        "mean_paired_MASE_difference": -0.01391549614577599,
+        "positive_seeds": 3,
+        "p_sign": 0.5078125,
+        "p_Holm_descriptive": 1.0
+      },
+      "conditional_crossed_block_CI95": {
+        "24": [
+          -0.028176902401119523,
+          0.005810490882888622
+        ],
+        "48": [
+          -0.027316604845435636,
+          0.004699483903439102
+        ],
+        "96": [
+          -0.029443582826657967,
+          0.005180353037586916
+        ]
+      },
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 61110,
+      "p_Holm": 1.0
+    },
+    {
+      "resource": "cpu_usage",
+      "reference": "E5",
+      "proposed": "A3",
+      "mean_MASE_reference": 1.1453856875572674,
+      "mean_MASE_A3": 1.1602349527399531,
+      "mean_paired_MASE_difference": -0.014849265182685848,
+      "mean_paired_MAE_difference": 4.665198889666673e-06,
+      "mean_paired_RMSE_difference": 1.6293216829728e-05,
+      "mean_paired_reduction_percent": -1.9491537853457979,
+      "paired_reduction_valid_cells": 38400,
+      "zero_reference_cells": 0,
+      "ratio_of_mean_reduction_percent": -1.2964423550947688,
+      "seed_differences": [
+        0.002609976669367602,
+        0.0012392747352296984,
+        -0.06200614088062588,
+        -0.0160412661042242,
+        -0.0217060121455583,
+        -0.02193096613505098,
+        0.025904707862548542,
+        -0.02099607740380714,
+        -0.01771139566600691,
+        -0.017854752758730927
+      ],
+      "n_nonzero_seeds": 10,
+      "positive_seeds": 3,
+      "paired_seed_standardized_effect": -0.6566845310564768,
+      "p_sign": 0.34375,
+      "leave_tuning_seed_out": {
+        "excluded_seed": 101,
+        "status": "exploratory sensitivity declared before target-metric inspection",
+        "n_seeds": 9,
+        "n_nonzero_seeds": 9,
+        "mean_paired_MASE_difference": -0.01678918094402512,
+        "positive_seeds": 2,
+        "p_sign": 0.1796875,
+        "p_Holm_descriptive": 0.5390625
+      },
+      "conditional_crossed_block_CI95": {
+        "24": [
+          -0.029030436884385665,
+          -0.0009404554952545961
+        ],
+        "48": [
+          -0.029766445930397286,
+          -0.0011959255161456603
+        ],
+        "96": [
+          -0.02965988536656276,
+          -0.00011129048436751005
+        ]
+      },
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 61110,
+      "p_Holm": 1.0
+    },
+    {
+      "resource": "container_memory_usage_bytes",
+      "reference": "DLinear",
+      "proposed": "A3",
+      "mean_MASE_reference": 1.2401899903456572,
+      "mean_MASE_A3": 1.2403332331650325,
+      "mean_paired_MASE_difference": -0.00014324281937559688,
+      "mean_paired_MAE_difference": 3008.5247619503893,
+      "mean_paired_RMSE_difference": -5906.4552401203255,
+      "mean_paired_reduction_percent": 0.00012523040034496372,
+      "paired_reduction_valid_cells": 38400,
+      "zero_reference_cells": 0,
+      "ratio_of_mean_reduction_percent": -0.01155007059327041,
+      "seed_differences": [
+        -0.003139721101616738,
+        -0.003597523272145094,
+        0.03377871068565476,
+        -0.002564921482990728,
+        -0.0110962172427132,
+        -0.004216747594691743,
+        0.014211328033334152,
+        -0.010722352640023332,
+        0.013582342925289622,
+        -0.02766732650385367
+      ],
+      "n_nonzero_seeds": 10,
+      "positive_seeds": 3,
+      "paired_seed_standardized_effect": -0.008463595112898467,
+      "p_sign": 0.34375,
+      "leave_tuning_seed_out": {
+        "excluded_seed": 101,
+        "status": "exploratory sensitivity declared before target-metric inspection",
+        "n_seeds": 9,
+        "n_nonzero_seeds": 9,
+        "mean_paired_MASE_difference": 0.00018969921198452983,
+        "positive_seeds": 3,
+        "p_sign": 0.5078125,
+        "p_Holm_descriptive": 1.0
+      },
+      "conditional_crossed_block_CI95": {
+        "24": [
+          -0.010242759699365942,
+          0.010190296394571575
+        ],
+        "48": [
+          -0.009590653720863951,
+          0.01035386278316015
+        ],
+        "96": [
+          -0.00988421734808425,
+          0.009805597729332122
+        ]
+      },
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 61110,
+      "p_Holm": 1.0
+    },
+    {
+      "resource": "container_memory_usage_bytes",
+      "reference": "E5",
+      "proposed": "A3",
+      "mean_MASE_reference": 1.2655612528811904,
+      "mean_MASE_A3": 1.2403332331650325,
+      "mean_paired_MASE_difference": 0.025228019716157818,
+      "mean_paired_MAE_difference": 32531.966570657492,
+      "mean_paired_RMSE_difference": -7269.2883117881,
+      "mean_paired_reduction_percent": 0.9996485208940628,
+      "paired_reduction_valid_cells": 38400,
+      "zero_reference_cells": 0,
+      "ratio_of_mean_reduction_percent": 1.9934254196486687,
+      "seed_differences": [
+        0.012617331774430583,
+        0.008520745820915452,
+        0.05224132882591176,
+        0.027226291200959242,
+        0.040421517264062075,
+        0.023698923191396302,
+        0.01585148442211141,
+        0.06245594001969225,
+        0.007407212446618468,
+        0.0018394221954807037
+      ],
+      "n_nonzero_seeds": 10,
+      "positive_seeds": 10,
+      "paired_seed_standardized_effect": 1.2369880246185558,
+      "p_sign": 0.001953125,
+      "leave_tuning_seed_out": {
+        "excluded_seed": 101,
+        "status": "exploratory sensitivity declared before target-metric inspection",
+        "n_seeds": 9,
+        "n_nonzero_seeds": 9,
+        "mean_paired_MASE_difference": 0.02662920726523863,
+        "positive_seeds": 9,
+        "p_sign": 0.00390625,
+        "p_Holm_descriptive": 0.015625
+      },
+      "conditional_crossed_block_CI95": {
+        "24": [
+          0.012644771129798334,
+          0.0396089335813712
+        ],
+        "48": [
+          0.013119392254501483,
+          0.03981127771623183
+        ],
+        "96": [
+          0.012325661330435578,
+          0.03971059708898846
+        ]
+      },
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 61110,
+      "p_Holm": 0.0078125
+    }
+  ],
+  "inference_scope": "Paired seeded training randomness and crossed seed/mask/time uncertainty conditional on the fixed services and observed trace. Not population inference across infrastructures. Secondary/external descriptive only."
+}

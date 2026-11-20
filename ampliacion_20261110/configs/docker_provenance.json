@@ -1,0 +1,12 @@
+{
+  "source_repository": "https://github.com/bit-ml/ChronoGraph",
+  "source_commit": "51a16b9b29a0ecb1b6f17d672ca1da97de9da99a",
+  "executed_container": "dlinear20261029-research-1",
+  "executed_base_image": "dlinear-research:20261029",
+  "executed_base_image_id": "sha256:0565bae0bc603e76f17436945a78133eb3e9738f07274fd750154e7d0eb8437f",
+  "packaging_image": "dlinear-advanced:20261110",
+  "packaging_image_id": "sha256:4028afbb4f45fce42212b903d7be421ed9514deb4c85d6b9d65894bb27d3ad78",
+  "derived_image_built": true,
+  "derived_image_CPU_PatchTST_checked": true,
+  "scope": "Actual experiment ran in the existing dedicated container, with exact packages recorded; derived image packages same study dependencies. No independent clean-machine rebuild asserted."
+}

@@ -1,0 +1,183 @@
+{
+  "status": "local_computational_delivery_verified",
+  "checked_utc": "2026-11-10T23:21:54.228213+00:00",
+  "checks": {
+    "required_files": 34,
+    "neural_final_fits": 364,
+    "new_prediction_files": 9680,
+    "new_metric_rows": 3097600,
+    "verified_figures": 15,
+    "verified_reference_records": 25
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9170,
+      "sha256": "f71491fd5672cd19b4c00ac35a65cf7bd8c392919bce2b1819f170f13ceba20b"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 422,
+      "sha256": "76c68998468fbe99c3099fb4f607df034fcd51cfedf926fd69a90264d14f6c62"
+    },
+    {
+      "path": "compose.yaml",
+      "bytes": 480,
+      "sha256": "27017354ab0c1d99e730a83f87e2477a365f5fcba9c2a26b3d6def6cffa5b3f8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 121,
+      "sha256": "e75679d6d1169d5a1fa449cfa7e600570fe6f928a008f12a3fd888d403c28c1e"
+    },
+    {
+      "path": "configs/protocolo_congelado.yaml",
+      "bytes": 8431,
+      "sha256": "c31a47d143f0aaacfc739c7cf9e836c9afc9382420d25fba22aa3f7c530ab771"
+    },
+    {
+      "path": "docs/AUDITORIA_INICIAL.md",
+      "bytes": 2793,
+      "sha256": "d5905d4c33846ea9fde077b9e137146591122333fa3c9f0d7f6406e5b8600a76"
+    },
+    {
+      "path": "docs/PROTOCOLO_EXPERIMENTAL.md",
+      "bytes": 11478,
+      "sha256": "a36efe414919a20005733302184b90c1bd87bab5bc1525f34f5eff1d3a8abf1e"
+    },
+    {
+      "path": "docs/ENMIENDA_PROTOCOLO_PRETEST.md",
+      "bytes": 3989,
+      "sha256": "dc2e3b1dc3947ce46602e9ba94ceabd173bc3028677d837b42cb2e96ce75aa41"
+    },
+    {
+      "path": "docs/ESTADO_DEL_ARTE.md",
+      "bytes": 14626,
+      "sha256": "f1a7d70c866dacc76827b30b119a36372252788631ef0128c0dc611c08c8ba41"
+    },
+    {
+      "path": "docs/BIBLIOGRAFIA_VERIFICADA.bib",
+      "bytes": 11734,
+      "sha256": "f913d26fa40e24a70cb6dbea1a6b23c2cecda762dbebfd9b82dea48b04730115"
+    },
+    {
+      "path": "docs/SELECCION_REVISTA.md",
+      "bytes": 6721,
+      "sha256": "1dd2e868bef92b5d5d5e43145f606616e08bc5a9d06a7cfbcb667fc644bd8444"
+    },
+    {
+      "path": "docs/MATRIZ_CUMPLIMIENTO_EDITORIAL.md",
+      "bytes": 3285,
+      "sha256": "cb828adb7a622711c8fb6e2682dde8c0956de480c93da5478bb6d9a656391a5d"
+    },
+    {
+      "path": "docs/PENDIENTES_Y_LIMITACIONES.md",
+      "bytes": 4276,
+      "sha256": "1fdf02a6452fe8e4491371a61afcff7ce048ed0a425e2d78d21396703a4a1d7b"
+    },
+    {
+      "path": "docs/CARTA_PRESENTACION_EN.md",
+      "bytes": 2886,
+      "sha256": "07fcd2df2f1c5fba64f56b8106e705c3653986aa49df72126e04e4f815e4892f"
+    },
+    {
+      "path": "docs/DECLARACIONES_EN.md",
+      "bytes": 2209,
+      "sha256": "d3c64413dc6f18fd35d162d05d7cd8c3ec3ad5d46f34d4504844e16cc8a18ba6"
+    },
+    {
+      "path": "docs/CHECKLIST_PREVIO_ENVIO.md",
+      "bytes": 2163,
+      "sha256": "2a1604767b97e6d1f163707fd92d6fb5aa2b17c38c7748ddd1a46a306226fbbc"
+    },
+    {
+      "path": "docs/INFORME_FINAL.md",
+      "bytes": 8379,
+      "sha256": "c7883e792d3e41e07a4ab9b225ad3f3c8c678d3a00ab5e21a2ac83574d635baa"
+    },
+    {
+      "path": "articulo_final/main.tex",
+      "bytes": 3179,
+      "sha256": "b612639092fe13faab990591ab0ef08210ee8ac6429ac4437d2432f8e9ba0202"
+    },
+    {
+      "path": "articulo_final/revision_espanol.tex",
+      "bytes": 17022,
+      "sha256": "530883157d958ed3cbd8514ce75a29d40b43aac33d1919db12566a9436681b46"
+    },
+    {
+      "path": "articulo_final/referencias.bib",
+      "bytes": 11734,
+      "sha256": "f913d26fa40e24a70cb6dbea1a6b23c2cecda762dbebfd9b82dea48b04730115"
+    },
+    {
+      "path": "articulo_final/main.pdf",
+      "bytes": 518132,
+      "sha256": "01636350992e6e9ae0a2be7c6b789679cca18f683212d02c88feae2d07999440"
+    },
+    {
+      "path": "articulo_final/revision_espanol.pdf",
+      "bytes": 198350,
+      "sha256": "d8ee3ba04b48348cb9e4d3a5ae98dd8d3a8b21110ac555d4f5d5655557807a30"
+    },
+    {
+      "path": "results/analysis/primary_summary.csv",
+      "bytes": 2573,
+      "sha256": "5dfbd23216cc3eb22360aad8f4b5f0c5b2bbd455a3ea3729c903c3ab432722ca"
+    },
+    {
+      "path": "results/analysis/primary_contrasts.json",
+      "bytes": 7591,
+      "sha256": "87962d3bf955699c426412e1b4d0ad07d4164d4fb8bd0fd126867fdc0b56a370"
+    },
+    {
+      "path": "results/analysis/common_origin_metrics.csv.gz",
+      "bytes": 7395898,
+      "sha256": "2290b512ea0e59ebe94f3bdf9d9028a520ce577c770e5eb9083e61909455034a"
+    },
+    {
+      "path": "results/analysis/by_temporal_block.csv",
+      "bytes": 32300,
+      "sha256": "0cbaa3c72b53c46c401609a0806076693f82a69eea6a1aa4e13d4b88ecaf4179"
+    },
+    {
+      "path": "results/analysis/checkpoint_manifest.csv",
+      "bytes": 162453,
+      "sha256": "faade508bc52f0c4378f3f555170b1b4dfdf9b33eb0d73095be437f14a5e0c9c"
+    },
+    {
+      "path": "results/analysis/prediction_manifest.csv",
+      "bytes": 2613641,
+      "sha256": "c1292fa77053ea04b2092513b041ded98c3c9285c48939702dd45ce250370dc9"
+    },
+    {
+      "path": "experiments/benchmarks/latency.csv",
+      "bytes": 11529,
+      "sha256": "dc86a5a369b2ea39322b37732a074eef15c815cba1299dd779a41cb1afa62d06"
+    },
+    {
+      "path": "experiments/benchmarks/latency_trials.csv",
+      "bytes": 198739,
+      "sha256": "52031b0cb173b24c290ac97a7ed80b413c7e91f485e1ff17f565160697de12a4"
+    },
+    {
+      "path": "experiments/benchmarks/training.csv",
+      "bytes": 103256,
+      "sha256": "ed7ca3fb1af0412cffe2fe4fe8fdd953cf9856e3a39642723735db60270c9268"
+    },
+    {
+      "path": "results/resource_summary.json",
+      "bytes": 1469,
+      "sha256": "9dab59759ded4e6f271080d7f37f2e8a3e9411a8cd1fa3b18a023ce4f9ab740e"
+    },
+    {
+      "path": "results/pdf_qa.json",
+      "bytes": 1461,
+      "sha256": "091be69b65b876f109a20298e233ae4b045efa5982054e0e703d8088a5d57105"
+    }
+  ],
+  "submission_ready": false,
+  "editorial_pending_document": "docs/PENDIENTES_Y_LIMITACIONES.md",
+  "scope": "Computations, artifacts and local manuscript verified; human authorship/originality/licensing/release and journal requirements still require author resolution. No acceptance guarantee or submission performed.",
+  "manifest_scope": "Computational records and published supporting documents; archival editorial documents are not included in this manifest."
+}

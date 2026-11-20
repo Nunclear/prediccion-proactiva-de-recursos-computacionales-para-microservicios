@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "gradient_and_weight_bitwise_equal": true,
+  "optimizer_updates": 4,
+  "evaluation_bitwise_equal": true,
+  "training_microbatch": 8
+}

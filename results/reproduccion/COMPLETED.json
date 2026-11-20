@@ -1,0 +1,1 @@
+{"status": "complete", "trained_from_scratch": true, "fresh_initialization_seeds": [101, 202, 303], "models": ["persistencia", "DLinear", "GRU_propia", "GRU_llamadas", "BiTGraph_codigo_autor", "GinAR"]}

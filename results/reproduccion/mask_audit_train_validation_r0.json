@@ -1,0 +1,4220 @@
+{
+  "train": [
+    {
+      "q": 0,
+      "pattern": "disperso",
+      "mask_sha256": "07cd7a6c93bbfbde6c526d030923e9f770381bb4768e91d7aed71a97dfcc120a",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 0,
+          "racha_maxima": 0
+        }
+      ]
+    },
+    {
+      "q": 10,
+      "pattern": "disperso",
+      "mask_sha256": "fcfa7440550a968d2450a472d1d422a769fd3b49cc48549ebab78bd21cbd6eb9",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 3
+        }
+      ]
+    },
+    {
+      "q": 10,
+      "pattern": "bloques",
+      "mask_sha256": "774d1225b31383a915122b531f87adf44dba3c127890d233c99ec8d73d7d8178",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 560,
+          "racha_maxima": 6
+        }
+      ]
+    },
+    {
+      "q": 20,
+      "pattern": "disperso",
+      "mask_sha256": "3b2813ac9a5c7f1829c6776c1b810da29b2eab74416fde2bd3e17f75e529db29",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 5
+        }
+      ]
+    },
+    {
+      "q": 20,
+      "pattern": "bloques",
+      "mask_sha256": "a0af9fc5807e0125e3e496e3aa53ea54a8662305eb5ae6488573fdf27d35d3ef",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 1121,
+          "racha_maxima": 6
+        }
+      ]
+    },
+    {
+      "q": 40,
+      "pattern": "disperso",
+      "mask_sha256": "a7ecadbba7670f4da214751d322db13ac307206f9118a22ed3235b37c48829de",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 11
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 10
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 10
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 10
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 10
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 10
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 10
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 11
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 7
+        }
+      ]
+    },
+    {
+      "q": 40,
+      "pattern": "bloques",
+      "mask_sha256": "106f3d9a3f8b06a98f43ef9dec83a66bfb24f90049578145db22607db53b75db",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 5603,
+          "ocultados": 2241,
+          "racha_maxima": 6
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "q": 0,
+      "pattern": "disperso",
+      "mask_sha256": "07cd7a6c93bbfbde6c526d030923e9f770381bb4768e91d7aed71a97dfcc120a",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service008",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service013",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service022",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service029",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service036",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service044",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service047",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service050",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service055",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service060",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service070",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service074",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service081",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service089",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service090",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service103",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service107",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service108",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service109",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service117",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service118",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service119",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service122",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service123",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service134",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service137",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service141",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 0,
+          "racha_maxima": 0
+        },
+        {
+          "servicio": "service142",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 0,
+          "racha_maxima": 0
+        }
+      ]
+    },
+    {
+      "q": 10,
+      "pattern": "disperso",
+      "mask_sha256": "f53c16e0469822f186740a3a180d70a73c1688e1b871296939f366a6c522578c",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service008",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 1
+        },
+        {
+          "servicio": "service013",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service022",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 1
+        },
+        {
+          "servicio": "service029",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service036",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service044",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service047",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service050",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service055",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service060",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service070",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service074",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service081",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service089",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service090",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service103",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service107",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service108",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service109",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service117",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service118",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service119",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service122",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service123",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service134",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service137",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 1
+        },
+        {
+          "servicio": "service141",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service142",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 2
+        }
+      ]
+    },
+    {
+      "q": 10,
+      "pattern": "bloques",
+      "mask_sha256": "a5a5e02850778760b85e954bdb9821866a5910ca2f72561da801f4cc295bfda3",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service008",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 30,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 50,
+          "racha_maxima": 6
+        }
+      ]
+    },
+    {
+      "q": 20,
+      "pattern": "disperso",
+      "mask_sha256": "b1b862dd3029fd4d0bd1cb7eb5fd121a0bdeba894e8febcba6da58c59d050ff7",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service008",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service013",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service022",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service029",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service036",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service044",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service047",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service050",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service055",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service060",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service070",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service074",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service081",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service089",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service090",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service103",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service107",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service108",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service109",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service117",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service118",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service119",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service122",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service123",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service134",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service137",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 2
+        },
+        {
+          "servicio": "service141",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 3
+        },
+        {
+          "servicio": "service142",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 4
+        }
+      ]
+    },
+    {
+      "q": 20,
+      "pattern": "bloques",
+      "mask_sha256": "afe7b85515bdda79e4b80d305932bac4abdaf340710966fa9d19f52344799974",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service008",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 61,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 99,
+          "racha_maxima": 6
+        }
+      ]
+    },
+    {
+      "q": 40,
+      "pattern": "disperso",
+      "mask_sha256": "a27c4b7bc208e1a85c2439406dd8193222ed3bbc3e67aefceec6d7033c7393de",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service008",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service013",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service022",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service036",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service044",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service060",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service070",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service074",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 9
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service081",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 11
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service089",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service090",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service103",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service107",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service119",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service122",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 8
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 10
+        },
+        {
+          "servicio": "service123",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service134",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service137",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service141",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 5
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 7
+        },
+        {
+          "servicio": "service142",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 7
+        }
+      ]
+    },
+    {
+      "q": 40,
+      "pattern": "bloques",
+      "mask_sha256": "2cc12250189c86b640e2477db3313a1520349327383991ee8db5f4d36d644c21",
+      "counts": [
+        {
+          "servicio": "service008",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service008",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service013",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service022",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service029",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service036",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service044",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service047",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service050",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service055",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service060",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service070",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service074",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service081",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service089",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service090",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service103",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service107",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service108",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service109",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service117",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service118",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service119",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service122",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service123",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service134",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service137",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service141",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 0,
+          "n": 305,
+          "ocultados": 122,
+          "racha_maxima": 6
+        },
+        {
+          "servicio": "service142",
+          "segmento": 1,
+          "n": 496,
+          "ocultados": 198,
+          "racha_maxima": 6
+        }
+      ]
+    }
+  ]
+}

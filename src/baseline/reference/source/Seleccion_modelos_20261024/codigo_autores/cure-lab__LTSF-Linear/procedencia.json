@@ -1,0 +1,56 @@
+{
+  "repositorio": "https://github.com/cure-lab/LTSF-Linear",
+  "alcance": "Lectura estática de fuentes; no ejecución ni reproducción de resultados.",
+  "commit": "0c113668a3b88c4c4ee586b8c5ec3e539c4de5a6",
+  "archivos": [
+    {
+      "ruta": "FEDformer/LICENSE",
+      "sha256": "811126f0b190b1b73691b03f5103e584783b3847a633de4a9d36915de7e405d1"
+    },
+    {
+      "ruta": "FEDformer/README.md",
+      "sha256": "086e85ebc8fa2cf3631e41cfe622bc15735680660cc9d46e048a4d6ea0342064"
+    },
+    {
+      "ruta": "LICENSE",
+      "sha256": "195440db73029b048f34f3a8509add1611d6608e1edafb766eb398a65300f7a2"
+    },
+    {
+      "ruta": "Pyraformer/LICENSE",
+      "sha256": "63c71c64fbbc0fc885dd7240428a77536eaccb09fac915df161efa2649a4700a"
+    },
+    {
+      "ruta": "Pyraformer/README.md",
+      "sha256": "295cf58171b8965ce680101cc74cfb6fce813208eb96f80b20b48fd0c2062484"
+    },
+    {
+      "ruta": "Pyraformer/requirements.txt",
+      "sha256": "c380ca077e71d1ac231679e64e91f4760409cceb485fa4118a34d403c428b713"
+    },
+    {
+      "ruta": "README.md",
+      "sha256": "c5fb6414ea674df1a42339e562651706a1da5052e55d9d698bf66e33e0eaf5e6"
+    },
+    {
+      "ruta": "requirements.txt",
+      "sha256": "1d0c070dc34b790d124e137e27e7e75b39509643075455432355f5c37440d6cc"
+    },
+    {
+      "ruta": "layers/Autoformer_EncDec.py",
+      "sha256": "512a01144804da2a64ade5c1e687b624a0257238da18ea02af0720479ea216e2"
+    },
+    {
+      "ruta": "models/DLinear.py",
+      "sha256": "0893b53cb6473d6bdca7aeca514cb3ee12efa6df227c29c4469571c9711451cc"
+    },
+    {
+      "ruta": "models/Linear.py",
+      "sha256": "1c583fb30ecbeb82e27926d886088543b6cd3b0b911c56bd0a5ff97d78f53142"
+    },
+    {
+      "ruta": "models/NLinear.py",
+      "sha256": "cabdcf5ac2658faa45b8887846182d222eb0a98c42059079c533df0fe689d879"
+    }
+  ],
+  "estado": "fuentes_descargadas"
+}

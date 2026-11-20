@@ -1,0 +1,622 @@
+{
+  "choices": {
+    "C0_r0": {
+      "model": "C0",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9143952967393281
+    },
+    "C1_r0": {
+      "model": "C1",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9147212131850846
+    },
+    "C2_r0": {
+      "model": "C2",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9142546670612621
+    },
+    "C3_r0": {
+      "model": "C3",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9145605427689996
+    },
+    "C0_r1": {
+      "model": "C0",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0434560272536713
+    },
+    "C1_r1": {
+      "model": "C1",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.044194240693749
+    },
+    "C2_r1": {
+      "model": "C2",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0454228189267343
+    },
+    "C3_r1": {
+      "model": "C3",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0451846758773125
+    }
+  },
+  "records": [
+    {
+      "model": "C0",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0050628382274063
+    },
+    {
+      "model": "C0",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9276456358231026
+    },
+    {
+      "model": "C0",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1188124404144615
+    },
+    {
+      "model": "C0",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9314503545436128
+    },
+    {
+      "model": "C0",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0384404359919461
+    },
+    {
+      "model": "C0",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9143952967393281
+    },
+    {
+      "model": "C1",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0038172631905564
+    },
+    {
+      "model": "C1",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9279296143171701
+    },
+    {
+      "model": "C1",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1172469183349845
+    },
+    {
+      "model": "C1",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9316814719307137
+    },
+    {
+      "model": "C1",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0371183640062605
+    },
+    {
+      "model": "C1",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9147212131850846
+    },
+    {
+      "model": "C2",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0041333498987615
+    },
+    {
+      "model": "C2",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9274756103558497
+    },
+    {
+      "model": "C2",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1177944866911336
+    },
+    {
+      "model": "C2",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9311482978370932
+    },
+    {
+      "model": "C2",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.037556213952025
+    },
+    {
+      "model": "C2",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9142546670612621
+    },
+    {
+      "model": "C3",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0034037790932948
+    },
+    {
+      "model": "C3",
+      "r": 0,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9277190585102947
+    },
+    {
+      "model": "C3",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1166587535516885
+    },
+    {
+      "model": "C3",
+      "r": 0,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9313634816595163
+    },
+    {
+      "model": "C3",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0367005015552693
+    },
+    {
+      "model": "C3",
+      "r": 0,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9145605427689996
+    },
+    {
+      "model": "C0",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0893234845415107
+    },
+    {
+      "model": "C0",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0434560272536713
+    },
+    {
+      "model": "C0",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.267645770981906
+    },
+    {
+      "model": "C0",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.110776386164247
+    },
+    {
+      "model": "C0",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1587483873295719
+    },
+    {
+      "model": "C0",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0977460465660234
+    },
+    {
+      "model": "C1",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0916445241302624
+    },
+    {
+      "model": "C1",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.044194240693749
+    },
+    {
+      "model": "C1",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.2681759869698106
+    },
+    {
+      "model": "C1",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1121706261795323
+    },
+    {
+      "model": "C1",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1597181320426289
+    },
+    {
+      "model": "C1",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": false
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0988854781262107
+    },
+    {
+      "model": "C2",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0909751885945755
+    },
+    {
+      "model": "C2",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0454228189267343
+    },
+    {
+      "model": "C2",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.2680383449683363
+    },
+    {
+      "model": "C2",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.112766384380931
+    },
+    {
+      "model": "C2",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1596343180736104
+    },
+    {
+      "model": "C2",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": false,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0997658618213921
+    },
+    {
+      "model": "C3",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.093211086215106
+    },
+    {
+      "model": "C3",
+      "r": 1,
+      "spec": {
+        "backend": "ma25",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0451846758773125
+    },
+    {
+      "model": "C3",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.269095011745469
+    },
+    {
+      "model": "C3",
+      "r": 1,
+      "spec": {
+        "backend": "ema03",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1134600344781695
+    },
+    {
+      "model": "C3",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.160994478441822
+    },
+    {
+      "model": "C3",
+      "r": 1,
+      "spec": {
+        "backend": "ema07",
+        "availability": true,
+        "age": true
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1000667572386835
+    }
+  ]
+}

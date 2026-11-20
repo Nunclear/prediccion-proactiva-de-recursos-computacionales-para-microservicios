@@ -1,0 +1,8 @@
+fase,cohorte,modelos,semillas,mascaras,L,H_min,alcance
+I,ChronoGraph28,E0-E5 y comparadores,3,20,12,30,exploratorio histórico
+II,ChronoGraph28,C0-C3 y alias V2,3,20,12,30,selección por validación prueba conocida
+III,ChronoGraph32,15 familias con A0-A3,10 neuronales,20,12,30,transferencia espacial calibrada
+IV,ChronoGraph32,8 familias secundarias,3 neuronales,5,12,60/120/180/360,diseño estrella
+IV,ChronoGraph32,8 familias secundarias,3 neuronales,5,24/48,30,diseño estrella
+IV,Alibaba32,14 familias elegibles,pesos fuente congelados,20,12,30,12 bins calibración36 evaluación
+V,ChronoGraph28/32,modelos medidos,checkpoint fijo,NA,12,30,benchmarks diferentes sin combinar

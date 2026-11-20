@@ -1,0 +1,353 @@
+{
+  "models": [
+    {
+      "model": "E1",
+      "r": 0,
+      "seed": 101,
+      "state_sha256": "985fd9d19793a66f53960acfff1c3bfb3279a932436152239a85dde5d5b6d425",
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E1",
+      "r": 0,
+      "seed": 202,
+      "state_sha256": "cfbd58d03d5db971bb569bb526de7a8b52b7419ed7676c2ce081bbd99275e003",
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E1",
+      "r": 0,
+      "seed": 303,
+      "state_sha256": "d6d77f2e7cea60e640753723bb8681fb3334233aa954a8aa07e6a6bfb00a5680",
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E2",
+      "r": 0,
+      "seed": 101,
+      "state_sha256": "6a678b151ddf4cd982e6904961f92abf1ab0a4f774f0ad2986ec47e2637bf5a9",
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E2",
+      "r": 0,
+      "seed": 202,
+      "state_sha256": "fa830eda8a27c1ff3b29a5d13a2d9a8e8f53f4d18711e442069947ca27eeadd5",
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E2",
+      "r": 0,
+      "seed": 303,
+      "state_sha256": "366e3181c1e8bca2ee7fdaaf575932367b2b66d4c531d5fe68edbc35233f2f4d",
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E3",
+      "r": 0,
+      "seed": 101,
+      "state_sha256": "6822aa5ed506bfa89dc161c4cb39084f991c01ee0a81094520288431849d437f",
+      "spec": {
+        "variant": "E3"
+      },
+      "parameters": 62
+    },
+    {
+      "model": "E3",
+      "r": 0,
+      "seed": 202,
+      "state_sha256": "870837620cece490f4c6c016bdcafd216a552738195af2377d75158391b85f3a",
+      "spec": {
+        "variant": "E3"
+      },
+      "parameters": 62
+    },
+    {
+      "model": "E3",
+      "r": 0,
+      "seed": 303,
+      "state_sha256": "5b0948e8e867ff3a288e6ab83de3a226443faea4e06bd8de4f21eac28b953d75",
+      "spec": {
+        "variant": "E3"
+      },
+      "parameters": 62
+    },
+    {
+      "model": "E4",
+      "r": 0,
+      "seed": 101,
+      "state_sha256": "441b36a1f621ee6987edf65488a1ed6bc53b425c02b396f37cbfb12a87b6e156",
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "parameters": 38
+    },
+    {
+      "model": "E4",
+      "r": 0,
+      "seed": 202,
+      "state_sha256": "236c6d1c486fcd94838bbec3073dbc8fd172267833558b6edaf39aebe0a4a79a",
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "parameters": 38
+    },
+    {
+      "model": "E4",
+      "r": 0,
+      "seed": 303,
+      "state_sha256": "8014edd9466b116224343833b44f47bbcc0cacd02f5bec57eca6c974b9ee8de2",
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "parameters": 38
+    },
+    {
+      "model": "E5",
+      "r": 0,
+      "seed": 101,
+      "state_sha256": "2e96fedaf4d16ccdcb160d51a4eabca8723d44e585f964606aad6c55a5550185",
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "parameters": 74
+    },
+    {
+      "model": "E5",
+      "r": 0,
+      "seed": 202,
+      "state_sha256": "f4ce50fed7adc417422dd95a0cfb93519bb347fb1a92a6ac41857c7fd649a453",
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "parameters": 74
+    },
+    {
+      "model": "E5",
+      "r": 0,
+      "seed": 303,
+      "state_sha256": "4534de1940c6aa4563be7c7dd2ec48273d6db44c3e7a566683c3bbdaf87c3e36",
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "parameters": 74
+    },
+    {
+      "model": "E1",
+      "r": 1,
+      "seed": 101,
+      "state_sha256": "5a898cccb7156dea8f128d87141cbb77a64462a20671ea08ea4fbdff3f8a7d8a",
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E1",
+      "r": 1,
+      "seed": 202,
+      "state_sha256": "7ee4c47b3891d82169a6d2f12c2184504ff4901e5ceb401c0839f0165f4dcc2d",
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E1",
+      "r": 1,
+      "seed": 303,
+      "state_sha256": "a5b93d4acc9f050906b7fdb20f6031d53ccd0811d199ef58466e465d3f3c3b26",
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E2",
+      "r": 1,
+      "seed": 101,
+      "state_sha256": "f2b047a755f0783737929d179e67ba411dd271cfca0a27b6d3a4164391ff9af0",
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E2",
+      "r": 1,
+      "seed": 202,
+      "state_sha256": "f6f02b84a2a445d62607dab0ec31d807931631b14f82339b37e28440866046ec",
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E2",
+      "r": 1,
+      "seed": 303,
+      "state_sha256": "1bd184f6cf796d445edfab1fb14aef417b12a16417cffdded958a8ed9e7a7875",
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "parameters": 26
+    },
+    {
+      "model": "E3",
+      "r": 1,
+      "seed": 101,
+      "state_sha256": "445944bcd3824831a0ed2b5195552712d9c1c1f20c2bb2cea7e99efa94d437a1",
+      "spec": {
+        "variant": "E3"
+      },
+      "parameters": 62
+    },
+    {
+      "model": "E3",
+      "r": 1,
+      "seed": 202,
+      "state_sha256": "a6163376e9dbcbfbf76e5b914196665e645473c4350dd1983ee790d1b3e119c0",
+      "spec": {
+        "variant": "E3"
+      },
+      "parameters": 62
+    },
+    {
+      "model": "E3",
+      "r": 1,
+      "seed": 303,
+      "state_sha256": "eb18c4bad72ffde1db34d630ff08f7e9ee74a59c59eb990788bcc089d86676bc",
+      "spec": {
+        "variant": "E3"
+      },
+      "parameters": 62
+    },
+    {
+      "model": "E4",
+      "r": 1,
+      "seed": 101,
+      "state_sha256": "54350ea4f8123adc325fcf52176e6d1260e1ea872ae7c1ebfa3fa3c9f6608f4b",
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "parameters": 38
+    },
+    {
+      "model": "E4",
+      "r": 1,
+      "seed": 202,
+      "state_sha256": "da1272fbc63d2b8d690175f4ab4cdc6271ecc11af9ed62bd2cea81192fe3b231",
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "parameters": 38
+    },
+    {
+      "model": "E4",
+      "r": 1,
+      "seed": 303,
+      "state_sha256": "480e864334df7c4dca65b9a0bfba6f539dd6c14060036d40f7a27fef9bdc6da6",
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "parameters": 38
+    },
+    {
+      "model": "E5",
+      "r": 1,
+      "seed": 101,
+      "state_sha256": "ba708dbbe9d2c0544341947f7ad88a68e40117c3afb31da269df0bf1f156c26f",
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "parameters": 74
+    },
+    {
+      "model": "E5",
+      "r": 1,
+      "seed": 202,
+      "state_sha256": "c5fb221054b14778fb6f56c65aadd3e811d4bddb72d8726616f0f1634cbdf434",
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "parameters": 74
+    },
+    {
+      "model": "E5",
+      "r": 1,
+      "seed": 303,
+      "state_sha256": "86333badd7581c959ebe1955374a1f193a254832b916459b27709ef010135a35",
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "parameters": 74
+    }
+  ],
+  "no_test_used_for_selection": true
+}

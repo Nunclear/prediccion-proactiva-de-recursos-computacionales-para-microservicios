@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "completed_unix": 1794349722.256408,
+  "latency_rows": 62,
+  "training_records": 364,
+  "energy": "not measured; reliable per-project energy instrumentation unavailable"
+}

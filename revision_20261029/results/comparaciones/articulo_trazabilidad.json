@@ -1,0 +1,22 @@
+{
+  "status": "rendered",
+  "words_including_tables_references_captions": 7862,
+  "words_excluding_table_rows": 6760,
+  "abstract_words": 218,
+  "figures": 13,
+  "metric_source_sha256": {
+    "dinamica_entrenamiento_mediana.csv": "246e9f1ccd55b8d586a2eb81e8fe44d9e8e96f49a9c475d964bdab5f1073cda3",
+    "resumen_global.csv": "5b0ac714d4280fda01de179cdf880b62b1615de0ab50f838a8431f7f4613ad22",
+    "latencias_individuales.csv": "7d541b8a5ea212971c9d9df480fabf5fabc5fa2582da1825d8bf4bce7d34b228",
+    "contrastes_por_semilla.csv": "1e8b8fe936f4c3c7794bc837986c41dbe0d7259e1ee03ab8fb4fd29701273080",
+    "dinamica_entrenamiento.csv": "4f7512ef5e232634d73208dc1a63fbb6e094a26d9e98d9b092da1ddd1536766c",
+    "contrastes_dos_escalas.csv": "2555fd798000551c62c46bd9cd42a5c21a00c9ef0fba6301950087a8ba22ed4f",
+    "costes_nueva_medicion.csv": "40858c56474be5f781482c971d34cbb5e56e1c2ef8617adc12d32ba7391b6f4f",
+    "contrastes_por_servicio.csv": "2ccbe2c39c1c90771b712a4f0af5e7758dd1a66f497b3f727a25406c620335fc",
+    "pareto.csv": "2184a4d44af7b3fce77014cf9ebcd08c26057fb3e2e86d442ffc0818e6ee4b29",
+    "pareto_principal.csv": "a32bc87d0de525fa7f4b6593cbb41b70e8c7a293e501861bb76026854ffad741",
+    "resumen_condiciones.csv": "f7ec315619f7e181035e722e3725c272c1bef52f70dc3486b9e241e1b32498c1",
+    "resumen_perdidas.csv": "0bd6891771bca44b975a7d902f304a260bfbb9759a21e622b71b77722a4cfbca"
+  },
+  "article_sha256": "fc2cd2e9959f43c42f306476b91ddc56c40c5f8d3ac7d79d1176b8c52e8fd05d"
+}

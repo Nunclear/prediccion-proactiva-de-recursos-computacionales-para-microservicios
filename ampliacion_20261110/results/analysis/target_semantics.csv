@@ -1,0 +1,5 @@
+dataset,resource,target_units,target_semantics
+new_services,cpu_usage,publisher CPU scale,published point sample
+new_services,container_memory_usage_bytes,bytes,published point sample
+alibaba_transfer,cpu_usage,publisher min-max normalized utilization,mean pod utilization per timestamp then completed 30-minute mean
+alibaba_transfer,container_memory_usage_bytes,publisher min-max normalized utilization,mean pod utilization per timestamp then completed 30-minute mean

@@ -1,0 +1,314 @@
+version: 20261110-prospective-spatial-transfer-v2
+frozen_utc: '2026-11-10T20:09:40.293157+00:00'
+historical: Preserve original28 services, 70/10/20, E0-E5/C0-C3/V2 and original comparators;
+  no retrospective replacement.
+source_dataset: chronograph_source.npz
+holdout_dataset: chronograph_holdout.npz
+source_sha256: 80cba59fdc0897f9dc47c4e411837e261ed92815706e7614e1fd3f8dad76913d
+holdout_sha256: f68e1c180264db8186d50cccd216a09de8c860e80ddb76457ea788663c8d03c5
+cohort_selection:
+  services:
+  - service002
+  - service027
+  - service051
+  - service093
+  - service097
+  - service126
+  - service145
+  - service195
+  - service218
+  - service257
+  - service271
+  - service284
+  - service288
+  - service293
+  - service342
+  - service379
+  - service390
+  - service400
+  - service435
+  - service488
+  - service506
+  - service540
+  - service556
+  - service562
+  - service590
+  - service600
+  - service633
+  - service674
+  - service675
+  - service678
+  - service680
+  - service696
+  excluded:
+  - service008
+  - service013
+  - service022
+  - service029
+  - service030
+  - service033
+  - service035
+  - service036
+  - service040
+  - service044
+  - service047
+  - service050
+  - service055
+  - service060
+  - service070
+  - service074
+  - service081
+  - service089
+  - service090
+  - service103
+  - service107
+  - service108
+  - service109
+  - service117
+  - service118
+  - service119
+  - service122
+  - service123
+  - service134
+  - service137
+  - service141
+  - service142
+  selection: topology-only BFS from SHA256-ranked available roots; convenience connected
+    subgraph, not random population sampling
+  source_file_sha256: 907407a33cb5b59ddc276185e2a78ef869f41c6f7a919a0c340fc20467de5e5a
+  metrics_inspected_for_selection: false
+inference_scope: 32 new services, same infrastructure/period; target-prefix normalization
+  only; no target training/selection. Prospective conditional algorithm comparison,
+  not new-infrastructure population confirmation.
+primary:
+  history: 12
+  horizon_steps: 1
+  horizon_minutes: 30
+  models:
+  - DLinear
+  - NLinear
+  - E5
+  - A0
+  - A1
+  - A2
+  - A3
+  - GRU_own
+  - GRU_graph
+  - GRUD
+  - PatchTST
+  - Persistence
+  - MovingAverage
+  - SES
+  - Ridge
+  train_seeds:
+  - 101
+  - 202
+  - 303
+  - 404
+  - 505
+  - 606
+  - 707
+  - 808
+  - 909
+  - 1010
+  mask_realizations: 20
+  endpoint: equal mean MASE over services, six original positive-loss conditions and20
+    masks
+secondary:
+  design: star, not full factorial
+  settings:
+  - - 12
+    - 2
+  - - 12
+    - 4
+  - - 12
+    - 6
+  - - 12
+    - 12
+  - - 24
+    - 1
+  - - 48
+    - 1
+  models:
+  - DLinear
+  - E5
+  - A3
+  - PatchTST
+  - Persistence
+  - MovingAverage
+  - SES
+  - Ridge
+  seeds:
+  - 101
+  - 202
+  - 303
+  mask_realizations: 5
+  status: exploratory; shared holdout cohort
+external:
+  source: Alibaba2022 official MSMetricsUpdate objects0..47, first24hours
+  selection: 32 names SHA-ranked among names covering all initial object timestamps
+  aggregation: mean across pods at each timestamp then mean within completed30min
+    bucket; published normalized utilization, not bytes or cores
+  calibration: first12 buckets only; no external fitting/hyperparameter selection
+  evaluation: targets buckets12..47, prior calibration histories permitted; direct30-minute
+    endpoint; exclude graph model because graph not downloaded
+  scope: independent trace but only24hours and changed target semantics; exploratory
+    calibrated transfer; no population confidence claim
+masks:
+  cases:
+  - - 0
+    - disperso
+  - - 10
+    - disperso
+  - - 10
+    - bloques
+  - - 20
+    - disperso
+  - - 20
+    - bloques
+  - - 40
+    - disperso
+  - - 40
+    - bloques
+  - - 20
+    - correlacionado
+  - - 20
+    - prolongado
+  - - 20
+    - MAR_lag
+  seeds:
+  - 90001
+  - 190004
+  - 290007
+  - 390010
+  - 490013
+  - 590016
+  - 690019
+  - 790022
+  - 890025
+  - 990028
+  - 1090031
+  - 1190034
+  - 1290037
+  - 1390040
+  - 1490043
+  - 1590046
+  - 1690049
+  - 1790052
+  - 1890055
+  - 1990058
+  train_seed: 70001
+  validation_seed: 80001
+  correlated: shared priority in lexicographic groups of8
+  prolonged: blocks up to24 steps
+  MAR: probability .2*(1+.5*tanh(abs(last observed normalized CPU))); actual rate
+    reported, not forced20%; uses no current hidden or future outcome
+tuning:
+  candidates:
+  - lr: 0.001
+    weight_decay: 0.0
+  - lr: 0.001
+    weight_decay: 0.001
+  - lr: 0.003
+    weight_decay: 0.0
+  - lr: 0.003
+    weight_decay: 0.001
+  epochs: 3
+  train_origins: 512
+  val_origins: 64
+  score: epoch3 mean MASE over10conditions on source validation only
+  simple_candidates:
+    MovingAverage:
+    - 1
+    - 3
+    - 6
+    - 12
+    SES:
+    - 0.1
+    - 0.3
+    - 0.7
+    - 0.9
+    Ridge:
+    - 0.0
+    - 0.0001
+    - 0.01
+    - 1.0
+  budget_note: 4 candidates per trained model; analytic/no-training references differ
+    in compute, fully disclosed
+training:
+  epochs: 20
+  patience: 5
+  optimizer: Adam
+  effective_batch: 16
+  microbatch: 8
+  gradient_clip: 1.0
+  precision: float32
+  cpu_threads: 2
+  oom: restart incomplete epoch from checkpoint with halved microbatch; BN differences
+    disclosed if used
+  device: cuda
+  GRUD_acceleration: CUDA graph replay; same kernels, bitwise gradient/weight/prediction
+    checks passed before target evaluation; no change to optimizer or learning rule
+statistical_plan:
+  primary_contrasts:
+  - - DLinear
+    - A3
+  - - E5
+    - A3
+  resources:
+  - cpu_usage
+  - container_memory_usage_bytes
+  seeds: 10
+  sign_test: exact two-sided binomial sign test over paired seeded-training mean differences;
+    conditional on fixed trace/masks; ties excluded
+  multiplicity: Holm across4 primary tests only
+  uncertainty: 2000 crossed seed/mask/circular temporal-block resamples, fixed services
+    averaged; block lengths24/48/96, primary48; no claim of infrastructure population
+    CI
+  bootstrap_seed: 61110
+  secondary: descriptive only
+budgets:
+  max_parallel_gpu_jobs: 1
+  torch_allocator_fraction: 0.28
+  min_free_disk_GiB: 50
+  max_external_objects: 48
+  max_external_object_bytes: 1073741824
+  download_workers: 2
+  aggregation_workers: 2
+  estimated_final_fits: 364
+  estimated_tuning_fits: 280
+  estimated_prediction_storage_GiB: 15
+software:
+  torch: 2.9.0+cu128
+  numpy: 2.1.3
+  cuda: '12.8'
+source_sha256_files:
+  src/core.py: 265754350bf2616bd74f64693b0cfa02823fdfb21a2647a22ca9c581d0d9c5e9
+  src/models.py: cce7dd22b3b7ed065f5d040135ec5d92282a8ea6ae8d268cfa9cd1b026f0576a
+  src/engine.py: 603f423ab8a933978002fb49f3e4ce451cdeef701e90791174795c3b7f26b581
+  scripts/run_experiments.py: 3c9995952a058ee9b48148301896c5e9607d95999356fb4dedc551143df71710
+  tests/test_core.py: edf64446a2da2b6ab4d8e44d3bc91073e6c5885cc9e744cbc6687d502c4af18e
+patchtst:
+  repository: yuqinie98/PatchTST
+  commit: 204c21efe0b39603ad6e2ca640ef5896646ab1a9
+  files:
+  - path: LICENSE
+    url: https://raw.githubusercontent.com/yuqinie98/PatchTST/204c21efe0b39603ad6e2ca640ef5896646ab1a9/LICENSE
+    sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
+    bytes: 11357
+  - path: layers/PatchTST_backbone.py
+    url: https://raw.githubusercontent.com/yuqinie98/PatchTST/204c21efe0b39603ad6e2ca640ef5896646ab1a9/PatchTST_supervised/layers/PatchTST_backbone.py
+    sha256: df67173153787c2356bdfb6491159cd754332ef7382986efe879e1fbea8ebf26
+    bytes: 17968
+  - path: layers/PatchTST_layers.py
+    url: https://raw.githubusercontent.com/yuqinie98/PatchTST/204c21efe0b39603ad6e2ca640ef5896646ab1a9/PatchTST_supervised/layers/PatchTST_layers.py
+    sha256: 21c06c70a90c60ee2a269b5c600c702834dea22cdfd72915e6b0f8b4a28db3f6
+    bytes: 4720
+  - path: layers/RevIN.py
+    url: https://raw.githubusercontent.com/yuqinie98/PatchTST/204c21efe0b39603ad6e2ca640ef5896646ab1a9/PatchTST_supervised/layers/RevIN.py
+    sha256: e64c0ccded9228b347134e7368420d3fb10f70c75145b5ff2d8bdd8c3af59df6
+    bytes: 2083
+  - path: models/PatchTST.py
+    url: https://raw.githubusercontent.com/yuqinie98/PatchTST/204c21efe0b39603ad6e2ca640ef5896646ab1a9/PatchTST_supervised/models/PatchTST.py
+    sha256: 49d8bb865e1226d6338842f4b33c4bc6992cefb048dc2a4a5a8c410ca708586b
+    bytes: 5442

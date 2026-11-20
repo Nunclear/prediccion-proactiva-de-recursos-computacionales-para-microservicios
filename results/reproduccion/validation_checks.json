@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "resource": "cpu_usage",
+      "model": "DLinear",
+      "parameters": 26,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "cpu_usage",
+      "model": "GRU_propia",
+      "parameters": 841,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "cpu_usage",
+      "model": "GRU_llamadas",
+      "parameters": 841,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "cpu_usage",
+      "model": "BiTGraph_codigo_autor",
+      "parameters": 15096,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "cpu_usage",
+      "model": "GinAR",
+      "parameters": 9707,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "container_memory_usage_bytes",
+      "model": "DLinear",
+      "parameters": 26,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "container_memory_usage_bytes",
+      "model": "GRU_propia",
+      "parameters": 841,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "container_memory_usage_bytes",
+      "model": "GRU_llamadas",
+      "parameters": 841,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "container_memory_usage_bytes",
+      "model": "BiTGraph_codigo_autor",
+      "parameters": 15096,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    },
+    {
+      "resource": "container_memory_usage_bytes",
+      "model": "GinAR",
+      "parameters": 9707,
+      "finite_forward_backward": true,
+      "repeat_eval_exact": true
+    }
+  ],
+  "hidden_value_invariance": true,
+  "future_invariance": true,
+  "indices_within_partitions": true,
+  "eligible_windows": {
+    "train": 5591,
+    "validation": 777,
+    "test": 1589
+  },
+  "cuts": [
+    0,
+    5603,
+    6404,
+    8005
+  ],
+  "original_values_sha256": "458f65ef043272611490a7c5f416cb62bb7a8d81e48e57aca50c736142b123e0"
+}

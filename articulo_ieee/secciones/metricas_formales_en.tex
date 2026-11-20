@@ -1,0 +1,12 @@
+\subsection{Formal error and cost definitions}
+For a valid service/resource series with $T$ targets, define
+\begin{align}
+\operatorname{MAE}&=T^{-1}\sum_t|\widehat y_t-y_t|,\notag\\
+\operatorname{RMSE}&=\sqrt{T^{-1}\sum_t(\widehat y_t-y_t)^2},\\
+d_{s,r}&=|P|^{-1}\sum_{t\in P}|y_{t,s,r}-y_{t-1,s,r}|,\notag\\
+\operatorname{MASE}&=\operatorname{MAE}/d_{s,r}.
+\end{align}
+$P$ contains available adjacent training-prefix pairs separated by 1800 seconds. MAE and RMSE retain the target's units; MASE is dimensionless. A test persistence forecast need not have MASE one, since its errors and the training denominator come from different periods. Averaging service RMSE values is not equivalent to taking one square root after pooling every squared residual. Equal service weighting also differs from weighting services by resource magnitude or request traffic.
+
+For paired errors $e_B,e_M$, $\Delta=e_B-e_M$ and $R=100(e_B-e_M)/e_B$ favor $M$ when positive. The aggregation level used to form $R$ is explicitly reported. Model size counts trainable scalar elements. A latency percentile is an empirical quantile of timed calls on a specified device and batch; throughput additionally depends on how many origins and services the call includes. Training duration includes completed optimization epochs and validation under the recorded timing scope. Neither parameter count nor forward latency measures total energy or monetary cost.
+

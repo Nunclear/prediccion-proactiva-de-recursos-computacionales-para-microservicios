@@ -1,0 +1,49 @@
+{
+  "full_lfs_sha256": "907407a33cb5b59ddc276185e2a78ef869f41c6f7a919a0c340fc20467de5e5a",
+  "full_lfs_bytes": 1786000083,
+  "matched_services": [
+    "service008",
+    "service013",
+    "service022",
+    "service029",
+    "service036",
+    "service044",
+    "service047",
+    "service050",
+    "service055",
+    "service060",
+    "service070",
+    "service074",
+    "service081",
+    "service089",
+    "service090",
+    "service103",
+    "service107",
+    "service108",
+    "service109",
+    "service117",
+    "service118",
+    "service119",
+    "service122",
+    "service123",
+    "service134",
+    "service137",
+    "service141",
+    "service142"
+  ],
+  "shape": [
+    8005,
+    28,
+    2
+  ],
+  "internal_edges": 28,
+  "gaps": [
+    {
+      "index": 5908,
+      "seconds": 108000.0
+    }
+  ],
+  "cohort_sha256": "ee7e1aa2f3a5ce1a1176d9f1a462a20602ec493fc177e32c49d36d473823137d",
+  "source_zip_sha256": "recorded_in_run_config",
+  "status": "verified_against_local_full_dataset"
+}

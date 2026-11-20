@@ -1,0 +1,158 @@
+{
+  "version": "grupo05-701020-cuda-v1.1",
+  "created_utc": "2026-10-29T17:52:59.017331+00:00",
+  "split": [
+    0.7,
+    0.1,
+    0.2
+  ],
+  "cuts": [
+    0,
+    5603,
+    6404,
+    8005
+  ],
+  "history": 12,
+  "horizon_seconds": 1800,
+  "change_from_attachment": "User requested 70/10/20 in place of 70/15/15 and CUDA in place of CPU; no change to cohort, models or contrasts.",
+  "models": [
+    "persistencia",
+    "DLinear",
+    "GRU_propia",
+    "GRU_llamadas",
+    "BiTGraph_codigo_autor",
+    "GinAR"
+  ],
+  "resources": [
+    "cpu_usage",
+    "container_memory_usage_bytes"
+  ],
+  "conditions": [
+    [
+      0,
+      "disperso"
+    ],
+    [
+      10,
+      "disperso"
+    ],
+    [
+      10,
+      "bloques"
+    ],
+    [
+      20,
+      "disperso"
+    ],
+    [
+      20,
+      "bloques"
+    ],
+    [
+      40,
+      "disperso"
+    ],
+    [
+      40,
+      "bloques"
+    ]
+  ],
+  "train_seeds": [
+    101,
+    202,
+    303
+  ],
+  "test_mask_seeds": [
+    90001,
+    190004,
+    290007,
+    390010,
+    490013,
+    590016,
+    690019,
+    790022,
+    890025,
+    990028,
+    1090031,
+    1190034,
+    1290037,
+    1390040,
+    1490043,
+    1590046,
+    1690049,
+    1790052,
+    1890055,
+    1990058
+  ],
+  "training_mask_seed": 70001,
+  "validation_mask_seed": 80001,
+  "batch_train": 16,
+  "batch_evaluation": 128,
+  "runtime_acceleration": "GinAR CUDA graph replay; exact eager-equivalence checks on CPU/memory training updates, ragged batch and evaluation; fixed supports resident on GPU",
+  "epochs_max": 20,
+  "patience": 5,
+  "optimizer": "Adam",
+  "gradient_clip": 1.0,
+  "learning_rates": [
+    0.001,
+    0.003
+  ],
+  "tuning_epochs": 3,
+  "tuning_train_origins": 512,
+  "tuning_validation_origins": 32,
+  "tuning_GRU_pair": "shared learning rate",
+  "epoch_schedule": "condition=(chronological_training_origin_index+epoch)%7; one condition per origin per epoch",
+  "metrics": [
+    "MASE",
+    "MAE",
+    "RMSE"
+  ],
+  "normalization": "training only; per service/resource z-score",
+  "inferential_status": "Descriptive conditional bootstrap over 20 complete missingness realizations; no confirmatory p-values without sign-symmetry justification.",
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "torch": "2.9.0+cu128",
+  "cuda": "12.8",
+  "source_sha256": {
+    "diagnose_ginar.py": "f0c036f5e8336ac274a490c6266ecaf0b77a829a2cbf67bc9a81a7c96548edbe",
+    "report.py": "d6d136ce2993f35a291fbc532e37428cd6661cf5901d1c1bab9035ed976131ce",
+    "models.py": "ed5ca2bf665f15f19ffda60f626734555c0f2af8371c7bb4962a093d176defed",
+    "check_cuda_graph.py": "a9389b26170549d232f2333eadd10704e7c5a79214cf8d408489b1de09dd3dcd",
+    "audit.py": "b2e35218a602224e9d36fa9aa544c672f642fd9bbac95a2258eea44590f843be",
+    "run.py": "05b28d85f31f2ebc6e0010b3045842f75895125af8a7aa915298b2c9042add8c",
+    "environment/docker/check.py": "1a038ddefbed192761c840df534b5ad13872a5fecae515a9b9c67485b65b3d8f",
+    "source/Viabilidad_integral_AB_20261024/adquirir_cohorte.py": "9c85c0defffc378ad4b2b28a25027644b98ace01370c9937771fddae5da1f0f6",
+    "source/Viabilidad_integral_AB_20261024/calcular_presupuesto.py": "61a8c171137e9d52bc58783ad221ab32a79f068842539539b8e61713650bff2a",
+    "source/Viabilidad_integral_AB_20261024/probar_pipeline.py": "c5f1b98f83abd5428441de580d344c8acae977aa451644e7549bb6491a2f4258",
+    "source/Viabilidad_integral_AB_20261024/auditar_cierre.py": "010e731740d0df68b5f08eba6771dc4e3e2466f42b9b8bec39eb5e22bbfe3578",
+    "source/Conciliacion_tecnica_AB_20261024/probar_control_B.py": "29cc11aa855e06a3233fe896788f3d52c02d4b9e3b0fcac7400b0ddb3f33cbfb",
+    "source/Conciliacion_tecnica_AB_20261024/verificar_cierre.py": "0bacf38aebe14efb6b6c716a42d0121185ca9ea3fc2a5a3d9c1db6d714fe6eeb",
+    "source/Conciliacion_tecnica_AB_20261024/adquirir_muestra_conectada.py": "0f5e0cc7c5873737e823185e3afe29d716c6dd1a1661cbff88515a8b6d35e44c",
+    "source/Viabilidad_integral_AB_20261024/historial/pipeline_cartesiano_antes_ajuste.py": "02c3789925ade7ab60ae921883c2234f2d307af9e7e00056ecefcb9039c29565",
+    "source/Viabilidad_integral_AB_20261024/implementaciones/BiTGraph_CPU/models/BiaTCGNet/BiaTCGNet_layer.py": "3caaefb69c3fb14734cbf9bae8b57df75044bcd507656429b26188f472a77746",
+    "source/Viabilidad_integral_AB_20261024/implementaciones/BiTGraph_CPU/models/BiaTCGNet/BiaTCGNet.py": "47f202e6c71611b03cf6ed8589f9d2ce4da69c07e8300ddd26180447cd55802b",
+    "source/Conciliacion_tecnica_AB_20261024/historial/control_B_antes_separacion_bloques.py": "5d408f1a676485791b5bde012603fd9470bddb17e3781beef304f626f6b47040",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/main_ginar.py": "9537bb91dd99b1e50067e4615eff0eb55095b2562289e83fa8e423fc4c88e00f",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/data_solve.py": "355127440ad9fd89b986474894ca87fd9d9bfbd8d052877221e3109365851818",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/adjacent_matrix_norm.py": "f8adab444c90eb6d9ddf3016ba68de0bf27f984c7a3f41fe1d63c02edd2aeeb5",
+    "source/Seleccion_modelos_20261024/codigo_autores/chenxiaodanhit__BiTGraph/test_forecasting.py": "f839777cef710ef22f76be29def0c05500e7b0a2028e987c35eb5059f6d4d657",
+    "source/Seleccion_modelos_20261024/codigo_autores/chenxiaodanhit__BiTGraph/main.py": "93bce8f2c35d3ec84e4386db2b5ed299aba4342b0249fc3d59fd0ab85988ad65",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/data/main_PEM.py": "8754720b38cb1f8cffb7b0d9aae095f7cd4301f477179759418a5d67b5b55689",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/metric/main_metric.py": "e4f5e3e394474a5b5f8b6fa413d53da89046fc20a186d0d02433870583b9b759",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/metric/mask_metric.py": "874e88a4ff5ceaa75eb2e309bc7a81e821fe195e624d46e2d9493fdb4df79fbd",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/model1/ginar_cell.py": "c6949c378a9b1bdd381a341d9b7e0ddb2df03bd79f6beabf9d2569d81f2d5c3b",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/model1/ginar_arch.py": "850a37af7c73d48bdcb501c9365fc116234ec1967db61739882791b02d5b0e26",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/model2/ginar_cell.py": "f3c322ccae8581e7adbe767ec7c45b975641a7426e6282993439fe1cd0ce980a",
+    "source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/model2/ginar_arch.py": "004a49662b382610e40f79d4ce0f9507e23d46ccdc7c411e41bf8ed1fa97f917",
+    "source/Seleccion_modelos_20261024/codigo_autores/chenxiaodanhit__BiTGraph/models/BiaTCGNet/BiaTCGNet_layer.py": "46bca68560b15190c71636b474bd6fc31b422d7589fa42eab72fc21ab1277686",
+    "source/Seleccion_modelos_20261024/codigo_autores/chenxiaodanhit__BiTGraph/models/BiaTCGNet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source/Seleccion_modelos_20261024/codigo_autores/chenxiaodanhit__BiTGraph/models/BiaTCGNet/BiaTCGNet.py": "62366c94516b157c7bcc1ee3a194ca92675dc07bf5e3aa05d6ec0b0cf4379363",
+    "source/Seleccion_modelos_20261024/codigo_autores/cure-lab__LTSF-Linear/models/Linear.py": "1c583fb30ecbeb82e27926d886088543b6cd3b0b911c56bd0a5ff97d78f53142",
+    "source/Seleccion_modelos_20261024/codigo_autores/cure-lab__LTSF-Linear/models/DLinear.py": "0893b53cb6473d6bdca7aeca514cb3ee12efa6df227c29c4469571c9711451cc",
+    "source/Seleccion_modelos_20261024/codigo_autores/cure-lab__LTSF-Linear/models/NLinear.py": "cabdcf5ac2658faa45b8887846182d222eb0a98c42059079c533df0fe689d879",
+    "source/Seleccion_modelos_20261024/codigo_autores/cure-lab__LTSF-Linear/layers/Autoformer_EncDec.py": "512a01144804da2a64ade5c1e687b624a0257238da18ea02af0720479ea216e2",
+    "portable/BiaTCGNet/BiaTCGNet_layer.py": "22dc9f279a006708ffe07ab77fd18a8ebc8b150ac750dde07d8455b6cfb96dcc",
+    "portable/BiaTCGNet/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "portable/BiaTCGNet/BiaTCGNet.py": "02250a38dbb2ab5d23d6273e4e1fc8e58e3ff0544baa7f3c75deb43e2ef7a02e"
+  },
+  "zip_sha256": "aec4860a916e3218502f26e7b7e40c919e85f6ca1d422e8c6efa84a3248ace3a"
+}

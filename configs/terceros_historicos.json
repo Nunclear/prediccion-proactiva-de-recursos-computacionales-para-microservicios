@@ -1,0 +1,34 @@
+[
+  {
+    "repository": "GestaltCogTeam/GinAR",
+    "commit": "089f01135bf38381d17f8265b1c753703955518b",
+    "path": "model1/ginar_arch.py",
+    "destination": "src/baseline/reference/source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/model1/ginar_arch.py",
+    "upstream_sha256": "850a37af7c73d48bdcb501c9365fc116234ec1967db61739882791b02d5b0e26",
+    "expected_local_sha256": "850a37af7c73d48bdcb501c9365fc116234ec1967db61739882791b02d5b0e26"
+  },
+  {
+    "repository": "GestaltCogTeam/GinAR",
+    "commit": "089f01135bf38381d17f8265b1c753703955518b",
+    "path": "model1/ginar_cell.py",
+    "destination": "src/baseline/reference/source/Seleccion_modelos_20261024/codigo_autores/GestaltCogTeam__GinAR/model1/ginar_cell.py",
+    "upstream_sha256": "c6949c378a9b1bdd381a341d9b7e0ddb2df03bd79f6beabf9d2569d81f2d5c3b",
+    "expected_local_sha256": "c6949c378a9b1bdd381a341d9b7e0ddb2df03bd79f6beabf9d2569d81f2d5c3b"
+  },
+  {
+    "repository": "chenxiaodanhit/BiTGraph",
+    "commit": "4f1d05bcc20bb3f5084bd1facc995478f84a40ed",
+    "path": "models/BiaTCGNet/BiaTCGNet.py",
+    "destination": "src/baseline/reference/portable/BiaTCGNet/BiaTCGNet.py",
+    "upstream_sha256": "62366c94516b157c7bcc1ee3a194ca92675dc07bf5e3aa05d6ec0b0cf4379363",
+    "expected_local_sha256": "02250a38dbb2ab5d23d6273e4e1fc8e58e3ff0544baa7f3c75deb43e2ef7a02e"
+  },
+  {
+    "repository": "chenxiaodanhit/BiTGraph",
+    "commit": "4f1d05bcc20bb3f5084bd1facc995478f84a40ed",
+    "path": "models/BiaTCGNet/BiaTCGNet_layer.py",
+    "destination": "src/baseline/reference/portable/BiaTCGNet/BiaTCGNet_layer.py",
+    "upstream_sha256": "46bca68560b15190c71636b474bd6fc31b422d7589fa42eab72fc21ab1277686",
+    "expected_local_sha256": "22dc9f279a006708ffe07ab77fd18a8ebc8b150ac750dde07d8455b6cfb96dcc"
+  }
+]

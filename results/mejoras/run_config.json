@@ -1,0 +1,65 @@
+{
+  "split": [
+    0.7,
+    0.1,
+    0.2
+  ],
+  "history": 12,
+  "variants": [
+    "E0",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5"
+  ],
+  "selection": "validation only",
+  "exploratory": true,
+  "train_seeds": [
+    101,
+    202,
+    303
+  ],
+  "test_mask_seeds": [
+    90001,
+    190004,
+    290007,
+    390010,
+    490013,
+    590016,
+    690019,
+    790022,
+    890025,
+    990028,
+    1090031,
+    1190034,
+    1290037,
+    1390040,
+    1490043,
+    1590046,
+    1690049,
+    1790052,
+    1890055,
+    1990058
+  ],
+  "baseline": "fresh reproduction DLinear, unchanged",
+  "candidate_budget": "all prespecified candidates x two learning rates; E5 has greater search budget; disclose",
+  "alpha_scope": "shared across nodes, selected separately per resource; fixed or one learned scalar",
+  "precision": "float32; original stable clipping rule",
+  "batch": 16,
+  "device": "cuda",
+  "batch_policy": "train16 preserves baseline update budget; resident GPU cache means no DataLoader workers; evaluation128 if free VRAM >=1GiB, otherwise32; OOM retries16/8/1 recorded",
+  "code_sha256": {
+    "src/improved/models.py": "837e10546540976438895807f4fc161a0256a45a6496b06bb1156fd48be68e49",
+    "scripts/auditar_archivos.py": "0e3806eae48e852fcb3abea5009cc7176316b3eca74b4c43bb745ae9c165494a",
+    "scripts/validar_y_redactar.py": "ea49558255f4bfcf2d23887c7bede5967547956627e840303892a06208aeae20",
+    "scripts/auditar_predicciones_previas.py": "fd267a66dc353c554388e8d943cd48dffe304a879065e768188b283faf0af529",
+    "scripts/ablaciones.py": "4752703852f0e71087d0a559cb7e180c40d42a488ff3420ecbb193119881b8db",
+    "scripts/exportar.py": "50d614b8ddd86efbcaff701f1a34ba61328df0c9d85755c7c691f0d95481999f",
+    "scripts/reproducir.py": "5d3500f23c605e6ea041bc1582740ed3ce1cba01af2a56371c65e7ec574ad1d1",
+    "scripts/finalizar_host.py": "17b150407e2e0ba5fab12cea6111905afa8714c73365818feb0cb64aaf378483",
+    "tests/test_models.py": "6c040d073b76f1745bab1b61fec0b2e46f4cae58110898d02f9dee68b01ae24b",
+    "tests/smoke_training.py": "8230d0efaf28c1690d146cc0d715943504593de6b1e740dfbf60e4ed702f4b75",
+    "tests/test_resume.py": "93ba80d6b2488ee03c14fdb2b00bf98e7851b3b4a77dfdbbc4b552ed34ca0b27"
+  }
+}

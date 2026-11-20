@@ -1,0 +1,55 @@
+\documentclass[10pt,journal,letterpaper]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,booktabs,graphicx,tabularx,microtype}
+\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+\usepackage{placeins}
+\interdisplaylinepenalty=2500
+\emergencystretch=1.5em
+
+% Retain natural table text size and shrink only when necessary.
+\newsavebox{\ArticleTableBox}
+\newcommand{\FitTable}[1]{%
+  \sbox{\ArticleTableBox}{#1}%
+  \ifdim\wd\ArticleTableBox>\linewidth
+    \resizebox{\linewidth}{!}{\usebox{\ArticleTableBox}}%
+  \else
+    \usebox{\ArticleTableBox}%
+  \fi
+}
+
+\renewcommand{\abstractname}{Resumen}
+\renewcommand{\IEEEkeywordsname}{Palabras clave}
+\renewcommand{\refname}{Referencias}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\appendixname}{Apéndice}
+\hypersetup{pdftitle={Pronóstico de recursos de microservicios con telemetría incompleta: descomposición, modelos compactos y transferencia calibrada},pdfauthor={Carlos Augusto Mullisaca Condori; Jhon Alex Gutiérrez Morales}}
+\title{Pronóstico de recursos de microservicios con telemetría incompleta: descomposición, modelos compactos y transferencia calibrada}
+\author{Carlos~Augusto~Mullisaca~Condori y Jhon~Alex~Gutiérrez~Morales%
+  \thanks{Escuela Profesional de Ingeniería de Sistemas, Facultad de Ingeniería y Arquitectura, Universidad Peruana Unión, Juliaca, Perú. Correos: \mbox{\nolinkurl{carlos.mullisaca@upeu.edu.pe}} y \mbox{\nolinkurl{alex.gutierrez@upeu.edu.pe}}. Autor correspondiente pendiente de designación.}}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{secciones/resumen_es.tex}
+\end{abstract}
+\begin{IEEEkeywords}
+Microservicios, pronóstico, telemetría incompleta, DLinear, transferencia calibrada, reproducibilidad.
+\end{IEEEkeywords}
+
+\input{secciones/introduccion_es.tex}
+\input{secciones/trabajos_relacionados_es.tex}
+\input{secciones/metodologia_es.tex}
+\input{secciones/modelos_formales_es.tex}
+\input{secciones/resultados_es.tex}
+\input{secciones/discusion_es.tex}
+\input{secciones/amenazas_es.tex}
+\input{secciones/conclusiones_es.tex}
+\input{secciones/declaraciones_es.tex}
+\FloatBarrier
+\input{suplemento/detalles_es.tex}
+\FloatBarrier
+\bibliographystyle{IEEEtran}
+\bibliography{referencias}
+\end{document}

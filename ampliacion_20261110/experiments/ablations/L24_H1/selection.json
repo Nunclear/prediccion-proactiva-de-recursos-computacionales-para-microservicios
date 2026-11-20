@@ -1,0 +1,53 @@
+{
+  "choices": {
+    "DLinear_r0": {
+      "candidate": 2,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "validation_MASE": 0.948332294438103
+    },
+    "E5_r0": {
+      "candidate": 2,
+      "lr": 0.003,
+      "weight_decay": 0.0,
+      "validation_MASE": 0.9738358623837099
+    },
+    "A3_r0": {
+      "candidate": 3,
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "validation_MASE": 0.9747230034331421
+    },
+    "PatchTST_r0": {
+      "candidate": 0,
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "validation_MASE": 0.8132570903215669
+    },
+    "DLinear_r1": {
+      "candidate": 3,
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "validation_MASE": 0.9775019510252946
+    },
+    "E5_r1": {
+      "candidate": 3,
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "validation_MASE": 1.1339654092060052
+    },
+    "A3_r1": {
+      "candidate": 3,
+      "lr": 0.003,
+      "weight_decay": 0.001,
+      "validation_MASE": 1.0498264783101412
+    },
+    "PatchTST_r1": {
+      "candidate": 1,
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "validation_MASE": 0.917136769958164
+    }
+  },
+  "no_target_metrics_used": true
+}

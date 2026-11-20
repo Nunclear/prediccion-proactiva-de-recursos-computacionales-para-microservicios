@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "scope": {
+    "source": "Alibaba2022 official MSMetricsUpdate objects0..47, first24hours",
+    "selection": "32 names SHA-ranked among names covering all initial object timestamps",
+    "aggregation": "mean across pods at each timestamp then mean within completed30min bucket; published normalized utilization, not bytes or cores",
+    "calibration": "first12 buckets only; no external fitting/hyperparameter selection",
+    "evaluation": "targets buckets12..47, prior calibration histories permitted; direct30-minute endpoint; exclude graph model because graph not downloaded",
+    "scope": "independent trace but only24hours and changed target semantics; exploratory calibrated transfer; no population confidence claim"
+  },
+  "n_test_origins": 36
+}

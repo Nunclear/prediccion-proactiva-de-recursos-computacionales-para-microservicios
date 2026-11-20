@@ -1,0 +1,83 @@
+{
+  "status": "complete",
+  "timing": "After primary target inspection, outcome-informed and exploratory only; not a substitute for the four frozen primary tests.",
+  "reference": "E5",
+  "proposed": "A3",
+  "resource": "container_memory_usage_bytes",
+  "services_favoring_A3": 10,
+  "total_services": 32,
+  "largest_service": "service540",
+  "largest_service_mean_difference": 0.34251591671649917,
+  "largest_share_of_aggregate_mean": 0.42427517172642903,
+  "summaries": [
+    {
+      "scope": "all",
+      "excluded_services": [],
+      "service_count": 32,
+      "mean_difference": 0.025228019716157818,
+      "positive_seed_means": 10,
+      "seed_count": 10,
+      "exploratory_unadjusted_sign_p": 0.001953125,
+      "seed_differences": [
+        0.01261733177443063,
+        0.008520745820915573,
+        0.052241328825911745,
+        0.027226291200959145,
+        0.04042151726406219,
+        0.02369892319139625,
+        0.01585148442211145,
+        0.06245594001969231,
+        0.007407212446618448,
+        0.0018394221954804698
+      ]
+    },
+    {
+      "scope": "without_largest",
+      "excluded_services": [
+        "service540"
+      ],
+      "service_count": 31,
+      "mean_difference": 0.014992926264533909,
+      "positive_seed_means": 10,
+      "seed_count": 10,
+      "exploratory_unadjusted_sign_p": 0.001953125,
+      "seed_differences": [
+        0.005896536319528196,
+        0.006937611370048694,
+        0.03189848639780556,
+        0.0218701779587427,
+        0.01694294001067884,
+        0.01858875349262893,
+        0.005896392062196463,
+        0.03625925933702791,
+        0.004783360211198264,
+        0.0008557454854835193
+      ]
+    },
+    {
+      "scope": "without_top_three",
+      "excluded_services": [
+        "service093",
+        "service400",
+        "service540"
+      ],
+      "service_count": 29,
+      "mean_difference": 0.003246733954332618,
+      "positive_seed_means": 6,
+      "seed_count": 10,
+      "exploratory_unadjusted_sign_p": 0.75390625,
+      "seed_differences": [
+        -0.008965034468629573,
+        0.0014516207911441166,
+        0.01753776405712336,
+        0.012465757894208129,
+        0.0008042112613401149,
+        0.010355441916267014,
+        -0.0008420826142315609,
+        0.0041646954901619964,
+        -0.0015799849501715968,
+        -0.0029250498338858223
+      ]
+    }
+  ]
+}

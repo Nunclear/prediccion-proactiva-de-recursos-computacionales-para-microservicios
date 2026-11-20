@@ -1,0 +1,85 @@
+\appendices
+\section{Supplementary detailed comparisons}
+\subsection{All added stress conditions and variability}
+Table~\ref{tab:stress} retains all model families in correlated, prolonged and lag-MAR conditions. Table~\ref{tab:variation} separates variation across seed means and mask means. A seed standard deviation is undefined for a deterministic reference with one fit; it is not silently set to zero.
+\begin{table*}[!t]
+\caption{Descriptive MASE under the three additional missingness mechanisms. ``Long'' denotes prolonged blocks; lag-MAR uses a nominal label with variable realized rate.}\label{tab:stress}
+\centering\footnotesize
+\FitTable{\input{tablas/additional_missingness.tex}}
+\end{table*}
+\begin{table*}[!t]
+\caption{Primary positive-loss MASE standard deviations across seed means and mask means. These two conditional summaries are not independent population variance components.}\label{tab:variation}
+\centering\footnotesize
+\FitTable{\input{tablas/variability.tex}}
+\end{table*}
+
+\subsection{Conditional block sensitivity and common-support extensions}
+\begin{table}[!t]
+\caption{95\% crossed seed/mask/circular-block bootstrap intervals for $\Delta$MASE, reference minus A3. Block lengths 24/48/96 correspond to 12/24/48 nominal hours. No infrastructure-population or predictive coverage is asserted.}\label{tab:block}
+\centering\footnotesize
+\FitTable{\input{tablas/block_sensitivity.tex}}
+\end{table}
+\begin{table*}[!t]
+\caption{Common-target-origin MASE for CPU (left) and memory (right), with horizons in minutes. Three seeds and five masks, six original positive-loss conditions; H30 here is a subset of the primary endpoint.}\label{tab:horizon}
+\centering\footnotesize
+
+\setlength{\tabcolsep}{4pt}
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/horizons_cpu.tex}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/horizons_memory.tex}}
+\end{minipage}
+\end{table*}
+\begin{table*}[!t]
+\caption{Common-target-origin MASE for CPU (left) and memory (right), with history in half-hour steps at horizon 30 minutes. This secondary star design is descriptive.}\label{tab:history}
+\centering\footnotesize
+
+\setlength{\tabcolsep}{4pt}
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/histories_cpu.tex}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.485\textwidth}
+\centering\FitTable{\input{tablas/histories_memory.tex}}
+\end{minipage}
+\end{table*}
+
+\subsection{Complete external and historical summaries}
+\begin{table*}[!t]
+\caption{Exploratory Alibaba transfer: six original positive-loss conditions. Absolute MAE/RMSE use the provider's normalized utilization for both resources. They must not be read as CPU cores or memory bytes.}\label{tab:external}
+\centering\footnotesize
+\FitTable{\input{tablas/external.tex}}
+\end{table*}
+The seven-condition historical means in Table~\ref{tab:historical} retain complete telemetry. Table~\ref{tab:matrix} documents the scope of the expanded run without treating repeated metric rows as independent observations.
+\begin{table}[!t]
+\caption{Preserved historical cohort: MASE averaged over all seven original conditions, including complete telemetry. These means have a different condition scope from the new primary positive-loss endpoint. V2 is a validation-selected alias of existing compact fits. Extreme GinAR values remain visible and characterize this implementation/protocol, not a canonical-model refutation.}\label{tab:historical}
+\centering\footnotesize
+\FitTable{\input{tablas/historical.tex}}
+\end{table}
+\begin{table}[!t]
+\caption{Executed metric matrix. Rows count repeated service summaries across models, seeds, masks and conditions. They are not independent datasets.}\label{tab:matrix}
+\centering\footnotesize
+\FitTable{\input{tablas/matrix.tex}}
+\end{table}
+
+\section{Reconstruction and Provenance}
+The local \path{results/analysis/prediction_manifest.csv} records every new prediction file and its array/file digests; \path{checkpoint_manifest.csv} records checkpoint hashes and predictor fingerprints. \path{metrics_all.csv.gz} retains full numerical precision and explicit target semantics. Table display rounding never changes those source records. \path{tablas/provenance.json} and the figure manifest specify filters and sources. The source-code hash list in the local frozen protocol is checked again during analysis.
+
+The analyzer independently reconstructs float64 physical-unit metric equations, target counts and chronological indices from saved prediction arrays. Mask regeneration uses the frozen generator and is therefore a consistency check rather than a second independent mask algorithm. Unit tests cover boundary/gap exclusion, future-prefix invariance for lag-MAR, one fixed-mask hidden-value perturbation, provenance identities, finite CPU/CUDA model behavior and affine initialization. Same-backend interruption/replay tests address checkpoint recovery and the CUDA optimization. These checks are targeted evidence; they do not prove universal absence of data leakage in provider releases.
+
+The derived Docker image reuses a preserved local research base. Its image identifiers and dependency freeze are recorded, but a fresh independent-machine build is not certified. Process CPU sampling was corrected after an initialization defect: earlier RSS values remain valid, earlier CPU zeros are excluded, and the amendment is preserved. Epoch timing, sampled RSS, Torch allocation and whole-system telemetry keep separate definitions. The accompanying README documents the actual execution and commands for bounded reconstruction without retuning.
+
+\subsection{Separate memory and historical timing measurements}
+Table~\ref{tab:historical-bench} preserves selected CUDA B128 measurements on source28. Table~\ref{tab:memory-bench} reports B1 CUDA inference measurements on destination32 for the CPU forecasting target. RSS describes process memory, whereas peak CUDA allocation describes the PyTorch allocator. Baselines and context differ across protocols, and neither metric should be used as a parameter-size conversion.
+\begin{table}[!t]
+\caption{Historical B128 CUDA eager, seed101. RSS is the reported process peak and CUDA is peak allocated memory. Seconds include training and validation for the corresponding fit.}\label{tab:historical-bench}
+\centering\footnotesize
+\FitTable{\input{tablas/historical_bench.tex}}
+\end{table}
+\begin{table}[!t]
+\caption{Expanded CUDA B1/32 services. RSS is observed process memory and CUDA is allocator peak, both in MiB. GRU-D uses verified replay. Shared device totals are reported separately.}\label{tab:memory-bench}
+\centering\footnotesize
+\FitTable{\input{tablas/memory_bench.tex}}
+\end{table}

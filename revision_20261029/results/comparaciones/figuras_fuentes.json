@@ -1,0 +1,20 @@
+{
+  "figures": [
+    "fig01_series.png",
+    "fig02_descomposicion.png",
+    "fig03_ausencias.png",
+    "fig04_ausencias.png",
+    "fig05_pronosticos.png",
+    "fig06_comparadores.png",
+    "fig07_robustez.png",
+    "fig08_recursos.png",
+    "fig09_incertidumbre.png",
+    "fig10_recursos_sistema.png",
+    "fig11_precision_coste.png",
+    "fig12_semillas.png",
+    "fig13_dinamica.png"
+  ],
+  "primary_data_sha256": "80cba59fdc0897f9dc47c4e411837e261ed92815706e7614e1fd3f8dad76913d",
+  "example_service": "service008",
+  "example_selection": "first service and fixed chronological slices; no best-case selection"
+}

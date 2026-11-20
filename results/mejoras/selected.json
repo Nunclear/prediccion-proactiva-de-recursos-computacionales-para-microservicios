@@ -1,0 +1,998 @@
+{
+  "choices": {
+    "E1_r0": {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9099930273692606
+    },
+    "E2_r0": {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 2,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9143952967393281
+    },
+    "E3_r0": {
+      "model": "E3",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E3"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9357760952924652
+    },
+    "E4_r0": {
+      "model": "E4",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9267064067200729
+    },
+    "E5_r0": {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 5,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9262349624388334
+    },
+    "E1_r1": {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 3,
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0434560272536713
+    },
+    "E2_r1": {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 2,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0977460465660234
+    },
+    "E3_r1": {
+      "model": "E3",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E3"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0863524625124523
+    },
+    "E4_r1": {
+      "model": "E4",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0385584550671758
+    },
+    "E5_r1": {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 5,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1279401925172983
+    }
+  },
+  "tuning": [
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.043059733406157
+    },
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9099930273692606
+    },
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E1",
+        "kernel": 7
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.03858233926442
+    },
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E1",
+        "kernel": 7
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9212444983048718
+    },
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 2,
+      "spec": {
+        "variant": "E1",
+        "kernel": 13
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0147957357280468
+    },
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 2,
+      "spec": {
+        "variant": "E1",
+        "kernel": 13
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9250518714180672
+    },
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 3,
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0050628382274063
+    },
+    {
+      "model": "E1",
+      "resource": "cpu_usage",
+      "candidate": 3,
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9276456358231026
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1899593276651705
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9553855254193343
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1188124404144615
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9314503545436128
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 2,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0384404359919461
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 2,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9143952967393281
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 3,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.11348667373187
+    },
+    {
+      "model": "E2",
+      "resource": "cpu_usage",
+      "candidate": 3,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9291728209924184
+    },
+    {
+      "model": "E3",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E3"
+      },
+      "lr": 0.001,
+      "validation_MASE": 0.9951264082324548
+    },
+    {
+      "model": "E3",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E3"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9357760952924652
+    },
+    {
+      "model": "E4",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0078645867241276
+    },
+    {
+      "model": "E4",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9267064067200729
+    },
+    {
+      "model": "E4",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E4",
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0053301115098294
+    },
+    {
+      "model": "E4",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E4",
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9299940465663126
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1722662691718018
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 0,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9716762136853867
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1728898530017848
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 1,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9717396225113901
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 2,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1055169721709688
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 2,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9500815840863861
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 3,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1058460535821957
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 3,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.949998834817685
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 4,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0269169586149387
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 4,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9265691198212389
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 5,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0270190831424184
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 5,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9262349624388334
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 6,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1005467628342969
+    },
+    {
+      "model": "E5",
+      "resource": "cpu_usage",
+      "candidate": 6,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 0.9477114248062436
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1356916735195628
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E1",
+        "kernel": 3
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.068588734074678
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E1",
+        "kernel": 7
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1310470914566382
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E1",
+        "kernel": 7
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.088959485373225
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 2,
+      "spec": {
+        "variant": "E1",
+        "kernel": 13
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.104171881652584
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 2,
+      "spec": {
+        "variant": "E1",
+        "kernel": 13
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.07469250027544
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 3,
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0893234845415107
+    },
+    {
+      "model": "E1",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 3,
+      "spec": {
+        "variant": "E1",
+        "kernel": 25
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0434560272536713
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.3886786128591435
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.108504619479162
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.267645770981906
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.110776386164247
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 2,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1587483873295719
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 2,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0977460465660234
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 3,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.2585045427003432
+    },
+    {
+      "model": "E2",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 3,
+      "spec": {
+        "variant": "E2",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.110657218021983
+    },
+    {
+      "model": "E3",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E3"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.113187464413282
+    },
+    {
+      "model": "E3",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E3"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0863524625124523
+    },
+    {
+      "model": "E4",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.097920127145968
+    },
+    {
+      "model": "E4",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E4",
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0385584550671758
+    },
+    {
+      "model": "E4",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E4",
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.0950981206937593
+    },
+    {
+      "model": "E4",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E4",
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.0440242848569172
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.4028013546204638
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 0,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.136021510958001
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.4051961644907742
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 1,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.1,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1313908948446527
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 2,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.280939028172783
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 2,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1410834234441145
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 3,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.2834149140689186
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 3,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.138423141519501
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 4,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1622265514084107
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 4,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1295812175646642
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 5,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.1642792413696146
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 5,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.7,
+        "learned_alpha": false,
+        "age": "linear_capped"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1279401925172983
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 6,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.001,
+      "validation_MASE": 1.271836123908829
+    },
+    {
+      "model": "E5",
+      "resource": "container_memory_usage_bytes",
+      "candidate": 6,
+      "spec": {
+        "variant": "E5",
+        "alpha": 0.3,
+        "learned_alpha": true,
+        "age": "log"
+      },
+      "lr": 0.003,
+      "validation_MASE": 1.1411819761761166
+    }
+  ]
+}

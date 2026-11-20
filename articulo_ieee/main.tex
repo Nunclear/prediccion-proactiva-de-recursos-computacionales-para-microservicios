@@ -1,0 +1,51 @@
+\documentclass[10pt,journal,letterpaper]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,booktabs,graphicx,tabularx,microtype}
+\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+\usepackage{placeins}
+\interdisplaylinepenalty=2500
+\emergencystretch=1.5em
+
+% Retain natural table text size and shrink only when necessary.
+\newsavebox{\ArticleTableBox}
+\newcommand{\FitTable}[1]{%
+  \sbox{\ArticleTableBox}{#1}%
+  \ifdim\wd\ArticleTableBox>\linewidth
+    \resizebox{\linewidth}{!}{\usebox{\ArticleTableBox}}%
+  \else
+    \usebox{\ArticleTableBox}%
+  \fi
+}
+
+\hypersetup{pdftitle={Microservice Resource Forecasting under Incomplete Telemetry: Decomposition, Compact Models and Calibrated Transfer},pdfauthor={Carlos Augusto Mullisaca Condori; Jhon Alex Gutiérrez Morales}}
+\title{Microservice Resource Forecasting under Incomplete Telemetry: Decomposition, Compact Models and Calibrated Transfer}
+\author{Carlos~Augusto~Mullisaca~Condori and Jhon~Alex~Gutiérrez~Morales%
+  \thanks{School of Systems Engineering, Faculty of Engineering and Architecture, Universidad Peruana Unión, Juliaca, Peru. Email: \mbox{\nolinkurl{carlos.mullisaca@upeu.edu.pe}} and \mbox{\nolinkurl{alex.gutierrez@upeu.edu.pe}}. Corresponding author pending designation.}}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{secciones/abstract_en.tex}
+\end{abstract}
+\begin{IEEEkeywords}
+Microservices, forecasting, incomplete telemetry, DLinear, calibrated transfer, reproducibility.
+\end{IEEEkeywords}
+
+\input{secciones/introduccion.tex}
+\input{secciones/integracion_en.tex}
+\input{secciones/trabajos_relacionados.tex}
+\input{secciones/fundamentos_en.tex}
+\input{secciones/metodologia.tex}
+\input{secciones/resultados.tex}
+\input{secciones/discusion.tex}
+\input{secciones/amenazas.tex}
+\input{secciones/conclusiones.tex}
+\input{secciones/declaraciones.tex}
+\FloatBarrier
+\input{suplemento/detalles_en.tex}
+\FloatBarrier
+\bibliographystyle{IEEEtran}
+\bibliography{referencias}
+\end{document}
